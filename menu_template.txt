@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="eng">
+<head>
+<meta charset="utf-8"/>
+<!-- Include jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+<!-- Include jquery mark ( for highlighting text )-->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/6.1.0/jquery.mark.min.js"></script>
+
+<!-- Include Data Tables-->
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
+<!-- CSS -->
+<script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<!-- JS -->
+<STYLE>
+body {
+  font-family: "Times New Roman";
+  font-size: 10.5pt;
+  line-height: 12pt;
+}
+.text_ID {
+  font-size: 12pt;
+  color: blue;
+}
+.score {
+  font-size: 12pt;
+  color: black;
+  font-weight: bold;
+}
+.cat_info {
+  font-size: 12pt;
+  color: gray;
+}
+mark {
+            padding: 0px;
+            background-color: rgb(255, 201, 14);
+        }
+th, td {
+    white-space: nowrap;
+}
+</STYLE>
+
+<title>WritEMe database -- MENU</title>
+
+
+<!-- Some custom js -->
+    <script type="text/javascript" class="init">//<![CDATA[
+
+            $(document).ready(function() {
+
+                // create a data table
+                var table = $('#my-table').DataTable(
+
+                );
+
+                // Apply the search
+                    table.columns().every( function () {
+                            var that = this;
+
+                            $( 'input', this.footer() ).on( 'keyup change clear', function () {
+                                 if ( that.search() !== this.value ) {
+                                        that
+                                                .search( this.value )
+                            .draw();
+
+                                  }
+                           } );
+                    } );
+
+                //CODE BELOW HIGHLIGHTS ONLY IN GLOBAL SEARCH
+                // add custom listener to draw event on the table
+                table.on("draw",function() {
+                    // get the search keyword
+                    var keyword = $('#my-table_filter > label:eq(0) > input').val();
+
+                    // clear all the previous highlighting
+                    $('#my-table').unmark();
+
+                    // highlight the searched word
+                    $('#my-table').mark(keyword,{});
+                });
+
+            });
+
+        //]]>
+    </script>
+</head>
+<body>

@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang=\"eng\">
+<head>
+<meta charset=\"utf-8\"/>
+<!-- Include jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+<!-- Include jquery mark ( for highlighting text )-->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/6.1.0/jquery.mark.min.js"></script>
+
+<!-- Include Data Tables-->
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
+<!-- CSS -->
+<script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<!-- JS -->
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+
+<STYLE>
+html,body{
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-family: "Times New Roman";
+  font-size: 10.5pt;
+  line-height: 12pt;
+}
+.text_ID {
+  font-size: 12pt;
+  color: blue;
+}
+.score {
+  font-size: 12pt;
+  color: black;
+  font-weight: bold;
+}
+.cat_info {
+  font-size: 12pt;
+  color: gray;
+}
+mark {
+            padding: 0px;
+            background-color: rgb(255, 201, 14);
+        }
+.text-wrap {
+    white-space:normal;
+}
+.width-200  {
+      width:200px;
+}
+</STYLE>
+<title>WritEMe database -- STATISTICS</title>
+</head>
+<body>

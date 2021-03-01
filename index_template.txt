@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="eng">
+<head>
+<meta charset="utf-8"/>
+<STYLE>
+html,body{
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-family: "Times New Roman";
+  font-size: 10.5pt;
+  line-height: 12pt;
+}
+.menu {
+     align:left;
+     width:35%;
+     height:100%;
+}
+.stats {
+  align:left;
+  width:32%;
+  height:100%;
+}
+.mainContent {
+     align:right;
+     width:30%;
+     height:100%;
+}
+h1 {
+  text-align: center;
+  font-size:150%;
+}
+</STYLE>
+<title>WritEMe database -- MAIN PAGE</title>
+</head>
+<body>
+  <div><h1>Writing and Accounting in Early Mesopotamia (<a href ="https://writeme.hypotheses.org" target ="_blank">WritEMe</a>)</h1></div>
+  <iframe class="menu" src="menu.html" name="menu"></iframe>
+  <iframe class="stats" src="lexicon.html" name="statistics"></iframe>
+  <iframe class="mainContent" src="statistics.html" name="mainContent"></iframe>
+</body>
+</html>
