@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html lang="eng">
+<head>
+<meta charset="utf-8"/>
+<STYLE>
+body {
+  font-family: "Times New Roman";
+  font-size: 10.5pt;
+  line-height: 12pt;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+.catMeta {
+  font-size: 9pt;
+  font-style: italic
+  font-weight: normal;
+  color: blue;
+}
+.transMeta {
+  font-size: 9pt;
+  font-weight: normal;
+  color: gray;
+}
+</STYLE>
+<title>WritEMe database -- P010876</title>
+</head>
+<body>
+  <span class = catMeta>#atf: lang sux</span><br>
+<span class = transMeta>@tablet</span><br>
+<span class = transMeta>@obverse</span><br>
+<span class = transMeta>@column 1</span><br>
+ 1. 2(u@c) 5(aš@c) guruš<br>
+ 2. <mark><div class="tooltip">bala<span class="tooltiptext">bala [TURN]</span></div></mark> lu₂-HU-da<br>
+ 3. 3(diš@t) ninda šu ti<br>
+ 4. 4(u@c) 5(aš@c) guruš<br>
+<span class = transMeta>@column 2</span><br>
+ 1. 1(diš@t) ninda šu ti<br>
+ 2. 3(u@c) la₂ 2(aš@c)<br>
+ 3. 1(diš@t) ninda šu ti<br>
+ 4. mar-tu<br>
+<span class = transMeta>@column 3</span><br>
+<span class = transMeta>$ column blank</span><br>
+<span class = transMeta>@reverse</span><br>
+<span class = transMeta>@column 1</span><br>
+ 1. 1(geš2@c@d) 3(u@c) la₂ 2(aš@c) ninda<br>
+<span class = transMeta>$ blank space</span><br>
+
+<p class = "transMeta">Transliteration source: <a href="https://cdli.ucla.edu" target="_blank">CDLI</a>, with minor cosmetic adjustments</p><br>
+</body>
+</html>
