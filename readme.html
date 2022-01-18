@@ -1,0 +1,328 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+
+<STYLE>
+html,body{
+  width: 90%;
+  height: 100%;
+}
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 10.5pt;
+  line-height: 150%;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+p {
+    word-wrap: break-word;
+}
+/* unvisited link */
+a:link {
+  color: #cc071e;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #cc071e;
+}
+
+/* mouse over link */
+a:hover {
+  color: #cc071e;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: #ec5a4f;
+  text-decoration: underline;
+}
+div {
+  padding: 2em;
+}
+h1 {
+  text-align: center;
+  font-size:150%;
+}
+.middle {
+  align:center;
+  width:82%;
+  height:100%;
+}
+#sidebar {
+  top: 0;
+  bottom: 0;
+}
+.aParent {
+  background-color: #f7f5e7;
+  color: #000000;
+  text-decoration: none;
+  overflow: hidden;
+}
+.title {
+  background-color: #f7f5e7;
+  color: #000000;
+  font-weight: bold;
+  font-size: 17px;
+  padding: 14px 16px;
+  text-decoration: none;
+  overflow: hidden;
+  float: left;
+  width: 48%
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #f7f5e7;
+  overflow: hidden;
+  float: right;
+  width: 48%
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #00fff7;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+/* Style the tab */
+   .tab {
+     overflow: hidden;
+     border: 1px solid #ccc;
+     background-color: #f1f1f1;
+   }
+
+   /* Style the buttons inside the tab */
+   .tab button {
+     background-color: inherit;
+     float: left;
+     border: none;
+     outline: none;
+     cursor: pointer;
+     padding: 14px 16px;
+     transition: 0.3s;
+     font-size: 17px;
+   }
+
+   /* Change background color of buttons on hover */
+   .tab button:hover {
+     background-color: #ddd;
+   }
+
+   /* Create an active/current tablink class */
+   .tab button.active {
+     background-color: #ccc;
+   }
+
+   /* Style the tab content */
+   .tabcontent {
+     display: none;
+     padding: 6px 12px;
+     border: 1px solid #ccc;
+     border-top: none;
+   }
+
+   span.sumerian {
+     font-weight: bold;
+     letter-spacing: .25em;
+
+   }
+
+   /* Style the table */
+   table.minimalistBlack {
+     border: 3px solid #000000;
+     text-align: left;
+     border-collapse: collapse;
+     margin-top: 2em;
+     margin-bottom: 2em;
+   }
+   table.minimalistBlack td, table.minimalistBlack th {
+     border: 1px solid #000000;
+     padding: 5px 4px;
+   }
+   table.minimalistBlack tbody td {
+     font-size: 13px;
+   }
+   table.minimalistBlack tr:nth-child(even) {
+     background: #F7F5E7;
+   }
+   table.minimalistBlack thead {
+     background: #CC071E;
+     background: -moz-linear-gradient(top, #d94556 0%, #d11f34 66%, #CC071E 100%);
+     background: -webkit-linear-gradient(top, #d94556 0%, #d11f34 66%, #CC071E 100%);
+     background: linear-gradient(to bottom, #d94556 0%, #d11f34 66%, #CC071E 100%);
+     border-bottom: 3px solid #000000;
+   }
+   table.minimalistBlack thead th {
+     font-size: 15px;
+     font-weight: bold;
+     color: #FFFFFF;
+     text-align: left;
+   }
+   table.minimalistBlack tfoot td {
+     font-size: 14px;
+   }
+
+</STYLE>
+<title>WritEMe - Lexicon database - README</title>
+</head>
+<body>
+<div class ="left">
+<p>To start exploring the database, please visit the <a href = "db_container.html">database</a> section.</p>
+The database offers a selection of Sumerian texts and terms related to writing and accounting (such as "scribe", "tablet", "seal", "to count", etc.). The texts have been extracted from a large digitized corpus, using ad-hoc data mining algorythms. The program evaluates the relevance of the entries on the basis of the total number of attestations of interesting words in the individual texts, as well as the weight attached to the individual selected words. Not all lexemes are in fact equally interesting to the scope of the project. For instance, the word for "scribe" is very central, whereas the one for "to go around" is relevant only if it involves scribes and accountants. Accordingly, each lemma in the list of interesting terms is assigned a weight 1-5 (1 = poorly relevant, 5 = very relevant).
+The Sumerian terms relevant to the research have been established manually, i.e. producing an authoritative list of lemmas (including individual spellings and morphological forms). The list must be organized as a spreadsheet with the following format (only the first couple of entries are showned here):
+
+<table class="minimalistBlack">
+<thead>
+<tr>
+<th>#lemma_id</th>
+<th>#class</th>
+<th>#spellings</th>
+<th>#senses</th>
+<th>#akkadian
+<th>#phon_glosses
+<th>#bibliogr.
+<th>#periods
+<th>#freq	</th>
+<th>#url</th>
+<th>#ranking</th>
+<th>#notes</th>
+<th>#forms</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>bisaŋdubak [ARCHIVIST]</td>
+  <td>(N)</td>
+  <td>bisaŋ-dub-ba, bisaŋ-dub, bisaŋ-dub-ba-a, pi-ša3-ad-ba-ar-ra, ša₁₃-dub-ba-a</td>
+  <td>archivist</td>
+  <td>šandabakku</td>
+  <td>-</td>
+  <td>...</td>
+  <td>Old Akkadian, Lagash II, Ur III, Old Babylonian, Middle Babylonian</td>
+  <td>1829x</td>
+  <td>http://oracc.org/epsd2/o0025217</td>
+  <td>xxxxx</td>
+  <td>-</td>
+  <td>ša13-dub-e, pisaŋ-dub-ba, ša13-dub-ba-ka-na, bisaŋ-dub, ša13-dub-ba-ka, bisaŋ-dub-ba-ra, ša13-dub-ba-a, ...</td>
+</tr>
+<tr>
+  <td>hur[SCRATCH]</td>
+  <td>(V/t)</td>
+  <td>ḫur, ḫur-ḫur, ara3<sup>a</sup>-<sup>ra</sup>-ra, <sup>ḫu</sup>ḫur, ara3-ra, ara3<sup>a</sup>-<sup>ra</sup>-ra, <sup>ḫu</sup>ḫur</td>
+  <td>to scratch,  draw</td>
+  <td>eṣēru</td>
+  <td>ara3<sup>a</sup>-<sup>ra</sup>-ra; <sup>&#x1E2B; u</sup>&#x1E2B; ur</td>
+  <td>...</td>
+  <td>Lagash II, Old Babylonian, Middle Babylonian, Neo-Assyrian, Neo-Babylonian, Hellenistic</td>
+  <td>114x</td>
+  <td>http://oracc.org/epsd2/o0030406</td>
+  <td>xxxx</td>
+  <td>hur-ra, hur-ra-za, a-ra-an-hur-hur-re, bi2-hur, hur-hur, mu-un-hur, u3-mu-ni-hur, hur-ra-gin7, ...</td>
+  <td>-</td>
+</tr>
+<tr>
+  <td>...</td>
+  <td>...</td>
+  <td>...</td>
+  <td>...</td>
+  <td>...</td>
+  <td>...</td>
+  <td>...</td>
+  <td>...</td>
+  <td>...</td>
+  <td>...</td>
+  <td>...</td>
+  <td>...</td>
+  <td>...</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+
+<p>The script takes advantage of two linguistic features of Sumerian:
+  <ol>
+    <li>The language is agglutinative, which makes nominal and verbal roots rather easy to identify by a computer.</li>
+     <li>third millennium BCE scribes often wrote down words as "naked" roots (i.e. without further grammatical morphemes), which also simplifies the task (although it also complicates interpretation).</li>
+  </ol>
+  These two facts combined allow for a script implemention that circumvents the issue of dealing with grammar and content-aware text recognition.</p>
+  <p>However, early cuneiform sources have also drawbacks when it comes to lemmatization. In fact, the Sumerian writing system exploits homography quite extensively. This means that two unrelated words may happen to share the same orthographical representation. Consider for instance the following English sentences:
+    <ol>
+      <li>Lead /lɛd/ is a chemical element with the symbol Pb</li>
+      <li>You will lead /liːd/ the way</li>
+    </ol>
+  In these two examples, the same sequence of characters, namely l-e-a-d, is used to express two different words. Similarly, the sign DUB in Sumerian may be used to express either "inscribed document" or the verb "to heap up" (possible differences in the actual phonetic realization are still debated). If two or more Sumerian lexemes share at least one spelling, the program considers them as a "collection". Collection words are defined here as new words within the dictionary, consisting of the sum of all shared spellings and meanings. Let us simplify a bit and consider the following Sumerian words:
+  <table class="minimalistBlack">
+  <thead>
+  <tr>
+  <th>Lexeme</th>
+  <th>Basic meaning</th>
+  <th>Root forms</th>
+  <th>Morphological forms</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td>SAR</td>
+  <td>GARDEN</td>
+  <td><span class="sumerian">sar, sar-sar, <sup>sa-ri</sup>sar</span></td>
+  <td><span class="sumerian">sar-ba, sar-bi</span>, etc.</td>
+  </tr>
+  <tr>
+  <td>SAR</td>
+  <td>RUN</td>
+  <td><span class="sumerian">sar, sar-sar, sar-re</span></td>
+  <td><span class="sumerian">ba-ra-mu-un-da-ab-sa-re, ga-ba-ab-sar-sar</span></td>
+  </tr>
+  <td>SAR</td>
+  <td>SHARPEN</td>
+  <td><span class="sumerian">sar, sar-sar</span></td>
+  <td><span class="sumerian">mu-ni-in-sar-sar-re-eš</span></td>
+  </tr>
+  <tr>
+  <td>SAR</td>
+  <td>SHAVE</td>
+  <td><span class="sumerian">sar, sakar-sakar, <sup>sa-kar</sup>sar</span></td>
+  <td><span class="sumerian">sakar-sakar</span></td>
+  </tr>
+  <tr>
+  <td>SAR</td>
+  <td>SMOKE</td>
+  <td><span class="sumerian">sar, sar-sar</span></td>
+  <td><span class="sumerian">al-sar-sar-re-ne</span>, etc.</td>
+  </tr>
+  <tr>
+  <td>SAR</td>
+  <td>WRITE</td>
+  <td><span class="sumerian">sar, sar-sar</span></td>
+  <td><span class="sumerian">a-ab-sar, sar-re-dam</span></td>
+  </tr>
+  </tbody>
+  </table>
+
+  As it appears, these lexemes share the form <span class="sumerian">sar</span>. If the program encounters an instance of SAR in a given text and no further morphological elements are attached to the root, it treats such instance as a collection word, having bulk meaning "GARDEN||RUN||SHARPEN||SHAVE||SMOKE||WRITE" (note the individual basic meanings are added up in alphabetical order). Practitioners must use their linguistic competence in order to establish the proper meaning in context.</p>
+  <p>However, as the program knows all morphological forms actually attached to a given word, an automatic disambiguation is possible, at least in all such cases where a given root has a unique morphological form (i.e. a form not shared with other homographs). For instance, if the program hits the form <span class="sumerian">sar-re-dam</span>, it correctly identifies it as meaning "to write", as the other omographs are unattested in such form.</p>
+<p>The program outputs a ranked list of promising texts, based on word ranking and total matches within individual texts. It also produces searchable tables that help validating the output. Wrong or unwanted results may be filtered out in a subsequent clean-up step. The program in fact accepts a list of texts to be ignored, which must be manually compiled by the practitioner after close inspection of the results from the first iteration. It is equally possible to provide the program with a list of morphological forms to be ignored. This is useful in case of rare or uncertain spellings that may sometimes generate considerable background noise.</p>
+
+
+</div>
+</body>
+</html>

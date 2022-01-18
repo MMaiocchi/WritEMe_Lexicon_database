@@ -1,0 +1,722 @@
+﻿<!DOCTYPE html>
+<html lang="eng">
+<head>
+<meta charset="utf-8"/>
+
+<!-- Include jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+<!-- Include jquery mark ( for highlighting text )-->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/6.1.0/jquery.mark.min.js"></script>
+
+<!-- Include Data Tables-->
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
+<!-- CSS -->
+<script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<!-- JS -->
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+
+<STYLE>
+html,body{
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-family: "Times New Roman";
+  font-size: 10.5pt;
+  line-height: 12pt;
+}
+.text_ID {
+  font-size: 12pt;
+  color: blue;
+}
+.score {
+  font-size: 12pt;
+  color: black;
+  font-weight: bold;
+}
+.cat_info {
+  font-size: 12pt;
+  color: gray;
+}
+mark {
+            padding: 0px;
+            background-color: rgb(255, 201, 14);
+        }
+.text-wrap {
+    white-space:normal;
+}
+.width-200  {
+      width:200px;
+}
+</STYLE>
+<title>WritEMe database -- LEXICON</title>
+
+<!-- Some custom js -->
+    <script type="text/javascript" class="init">//<![CDATA[
+
+            $(document).ready(function() {
+
+                // create a data table
+                var table = $('#my-table2').DataTable(
+
+                );
+
+                // Apply the search
+	            table.columns().every( function () {
+		            var that = this;
+
+		            $( 'input', this.footer() ).on( 'keyup change clear', function () {
+			         if ( that.search() !== this.value ) {
+	            			that
+		        			.search( this.value )
+                            .draw();
+
+			          }
+		           } );
+	            } );
+
+                //CODE BELOW HIGHLIGHTS ONLY IN GLOBAL SEARCH
+                // add custom listener to draw event on the table
+                table.on("draw",function() {
+                    // get the search keyword
+                    var keyword = $('#my-table2_filter > label:eq(0) > input').val();
+
+                    // clear all the previous highlighting
+                    $('#my-table2').unmark();
+
+                    // highlight the searched word
+                    $('#my-table2').mark(keyword,{});
+                });
+
+            });
+
+        //]]>
+    </script>
+
+</head>
+<body>
+
+<table id="my-table2" class="display" cellspacing="0" style="width:90%">
+        <thead>
+            <tr>
+                <th>Basic sp</th>
+                <th>Menings</th>
+                <th>Rank</th>
+                <th>Texts</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Spl</th>
+                <th>Mngs</th>
+                <th>Rank</th>
+                <th>Texts</th>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+              <td>dubsar||dubsargal</td>
+              <td>SCRIBE</td>
+              <td>285</td>
+              <td><a href = "P010009.html" target="mainContent">10009</a>, <a href = "P010011.html" target="mainContent">10011</a>, <a href = "P010012.html" target="mainContent">10012</a>, <a href = "P010034.html" target="mainContent">10034</a>, <a href = "P010039.html" target="mainContent">10039</a>, <a href = "P010049.html" target="mainContent">10049</a>, <a href = "P010059.html" target="mainContent">10059</a>, <a href = "P010060.html" target="mainContent">10060</a>, <a href = "P010062.html" target="mainContent">10062</a>, <a href = "P010067.html" target="mainContent">10067</a>, <a href = "P010068.html" target="mainContent">10068</a>, <a href = "P010069.html" target="mainContent">10069</a>, <a href = "P010101.html" target="mainContent">10101</a>, <a href = "P010102.html" target="mainContent">10102</a>, <a href = "P010437.html" target="mainContent">10437</a>, <a href = "P010479.html" target="mainContent">10479</a>, <a href = "P010480.html" target="mainContent">10480</a>, <a href = "P010481.html" target="mainContent">10481</a>, <a href = "P010482.html" target="mainContent">10482</a>, <a href = "P010483.html" target="mainContent">10483</a>, <a href = "P010485.html" target="mainContent">10485</a>, <a href = "P010501.html" target="mainContent">10501</a>, <a href = "P010516.html" target="mainContent">10516</a>, <a href = "P010524.html" target="mainContent">10524</a>, <a href = "P010525.html" target="mainContent">10525</a>, <a href = "P010526.html" target="mainContent">10526</a>, <a href = "P010532.html" target="mainContent">10532</a>, <a href = "P010553.html" target="mainContent">10553</a>, <a href = "P010554.html" target="mainContent">10554</a>, <a href = "P010555.html" target="mainContent">10555</a>, <a href = "P010564.html" target="mainContent">10564</a>, <a href = "P010693.html" target="mainContent">10693</a>, <a href = "P010700.html" target="mainContent">10700</a>, <a href = "P010705.html" target="mainContent">10705</a>, <a href = "P010706.html" target="mainContent">10706</a>, <a href = "P010707.html" target="mainContent">10707</a>, <a href = "P010708.html" target="mainContent">10708</a>, <a href = "P010720.html" target="mainContent">10720</a>, <a href = "P010729.html" target="mainContent">10729</a>, <a href = "P010732.html" target="mainContent">10732</a>, <a href = "P010734.html" target="mainContent">10734</a>, <a href = "P010738.html" target="mainContent">10738</a>, <a href = "P010740.html" target="mainContent">10740</a>, <a href = "P010744.html" target="mainContent">10744</a>, <a href = "P010746.html" target="mainContent">10746</a>, <a href = "P010747.html" target="mainContent">10747</a>, <a href = "P010748.html" target="mainContent">10748</a>, <a href = "P010749.html" target="mainContent">10749</a>, <a href = "P010764.html" target="mainContent">10764</a>, <a href = "P010772.html" target="mainContent">10772</a>, <a href = "P010780.html" target="mainContent">10780</a>, <a href = "P010819.html" target="mainContent">10819</a>, <a href = "P010821.html" target="mainContent">10821</a>, <a href = "P010823.html" target="mainContent">10823</a>, <a href = "P010837.html" target="mainContent">10837</a>, <a href = "P010844.html" target="mainContent">10844</a>, <a href = "P010848.html" target="mainContent">10848</a>, <a href = "P010855.html" target="mainContent">10855</a>, <a href = "P010859.html" target="mainContent">10859</a>, <a href = "P010869.html" target="mainContent">10869</a>, <a href = "P010877.html" target="mainContent">10877</a>, <a href = "P010929.html" target="mainContent">10929</a>, <a href = "P010934.html" target="mainContent">10934</a>, <a href = "P010945.html" target="mainContent">10945</a>, <a href = "P010954.html" target="mainContent">10954</a>, <a href = "P010958.html" target="mainContent">10958</a>, <a href = "P010961.html" target="mainContent">10961</a>, <a href = "P010962.html" target="mainContent">10962</a>, <a href = "P010963.html" target="mainContent">10963</a>, <a href = "P010964.html" target="mainContent">10964</a>, <a href = "P010966.html" target="mainContent">10966</a>, <a href = "P010969.html" target="mainContent">10969</a>, <a href = "P010972.html" target="mainContent">10972</a>, <a href = "P010973.html" target="mainContent">10973</a>, <a href = "P010975.html" target="mainContent">10975</a>, <a href = "P010978.html" target="mainContent">10978</a>, <a href = "P010979.html" target="mainContent">10979</a>, <a href = "P010981.html" target="mainContent">10981</a>, <a href = "P010982.html" target="mainContent">10982</a>, <a href = "P010983.html" target="mainContent">10983</a>, <a href = "P010984.html" target="mainContent">10984</a>, <a href = "P010987.html" target="mainContent">10987</a>, <a href = "P010989.html" target="mainContent">10989</a>, <a href = "P010990.html" target="mainContent">10990</a>, <a href = "P010991.html" target="mainContent">10991</a>, <a href = "P010992.html" target="mainContent">10992</a>, <a href = "P010993.html" target="mainContent">10993</a>, <a href = "P010994.html" target="mainContent">10994</a>, <a href = "P010999.html" target="mainContent">10999</a>, <a href = "P011001.html" target="mainContent">11001</a>, <a href = "P011002.html" target="mainContent">11002</a>, <a href = "P011007.html" target="mainContent">11007</a>, <a href = "P011008.html" target="mainContent">11008</a>, <a href = "P011010.html" target="mainContent">11010</a>, <a href = "P011011.html" target="mainContent">11011</a>, <a href = "P011013.html" target="mainContent">11013</a>, <a href = "P011015.html" target="mainContent">11015</a>, <a href = "P011019.html" target="mainContent">11019</a>, <a href = "P011024.html" target="mainContent">11024</a>, <a href = "P011025.html" target="mainContent">11025</a>, <a href = "P011026.html" target="mainContent">11026</a>, <a href = "P011028.html" target="mainContent">11028</a>, <a href = "P011029.html" target="mainContent">11029</a>, <a href = "P011033.html" target="mainContent">11033</a>, <a href = "P011034.html" target="mainContent">11034</a>, <a href = "P011035.html" target="mainContent">11035</a>, <a href = "P011048.html" target="mainContent">11048</a>, <a href = "P011052.html" target="mainContent">11052</a>, <a href = "P011058.html" target="mainContent">11058</a>, <a href = "P011060.html" target="mainContent">11060</a>, <a href = "P011063.html" target="mainContent">11063</a>, <a href = "P011064.html" target="mainContent">11064</a>, <a href = "P011066.html" target="mainContent">11066</a>, <a href = "P011078.html" target="mainContent">11078</a>, <a href = "P011079.html" target="mainContent">11079</a>, <a href = "P011082.html" target="mainContent">11082</a>, <a href = "P011093.html" target="mainContent">11093</a>, <a href = "P011096.html" target="mainContent">11096</a>, <a href = "P011105.html" target="mainContent">11105</a>, <a href = "P011106.html" target="mainContent">11106</a>, <a href = "P011107.html" target="mainContent">11107</a>, <a href = "P011112.html" target="mainContent">11112</a>, <a href = "P011113.html" target="mainContent">11113</a>, <a href = "P020025.html" target="mainContent">20025</a>, <a href = "P020055.html" target="mainContent">20055</a>, <a href = "P020075.html" target="mainContent">20075</a>, <a href = "P020107.html" target="mainContent">20107</a>, <a href = "P020169.html" target="mainContent">20169</a>, <a href = "P020190.html" target="mainContent">20190</a>, <a href = "P020216.html" target="mainContent">20216</a>, <a href = "P020247.html" target="mainContent">20247</a>, <a href = "P020250.html" target="mainContent">20250</a>, <a href = "P020276.html" target="mainContent">20276</a>, <a href = "P020280.html" target="mainContent">20280</a>, <a href = "P020293.html" target="mainContent">20293</a>, <a href = "P020300.html" target="mainContent">20300</a>, <a href = "P020310.html" target="mainContent">20310</a>, <a href = "P020321.html" target="mainContent">20321</a>, <a href = "P020324.html" target="mainContent">20324</a>, <a href = "P020330.html" target="mainContent">20330</a>, <a href = "P020349.html" target="mainContent">20349</a>, <a href = "P020386.html" target="mainContent">20386</a>, <a href = "P020392.html" target="mainContent">20392</a>, <a href = "P020467.html" target="mainContent">20467</a>, <a href = "P020485.html" target="mainContent">20485</a>, <a href = "P020489.html" target="mainContent">20489</a>, <a href = "P292940.html" target="mainContent">292940</a>, <a href = "P491234.html" target="mainContent">491234</a></td>
+            </tr>
+            <tr>
+              <td>edubbaʾa</td>
+              <td>SCRIBAL SCHOOL</td>
+              <td>126</td>
+              <td><a href = "P010049.html" target="mainContent">10049</a>, <a href = "P010050.html" target="mainContent">10050</a>, <a href = "P010059.html" target="mainContent">10059</a>, <a href = "P010060.html" target="mainContent">10060</a>, <a href = "P010068.html" target="mainContent">10068</a>, <a href = "P010069.html" target="mainContent">10069</a>, <a href = "P010070.html" target="mainContent">10070</a>, <a href = "P010086.html" target="mainContent">10086</a>, <a href = "P010101.html" target="mainContent">10101</a>, <a href = "P010436.html" target="mainContent">10436</a>, <a href = "P010479.html" target="mainContent">10479</a>, <a href = "P010480.html" target="mainContent">10480</a>, <a href = "P010481.html" target="mainContent">10481</a>, <a href = "P010483.html" target="mainContent">10483</a>, <a href = "P010544.html" target="mainContent">10544</a>, <a href = "P010553.html" target="mainContent">10553</a>, <a href = "P010564.html" target="mainContent">10564</a>, <a href = "P010600.html" target="mainContent">10600</a>, <a href = "P010649.html" target="mainContent">10649</a>, <a href = "P010650.html" target="mainContent">10650</a>, <a href = "P010660.html" target="mainContent">10660</a>, <a href = "P010730.html" target="mainContent">10730</a>, <a href = "P010810.html" target="mainContent">10810</a>, <a href = "P010929.html" target="mainContent">10929</a>, <a href = "P010987.html" target="mainContent">10987</a>, <a href = "P010989.html" target="mainContent">10989</a>, <a href = "P010991.html" target="mainContent">10991</a>, <a href = "P010992.html" target="mainContent">10992</a>, <a href = "P011066.html" target="mainContent">11066</a>, <a href = "P011070.html" target="mainContent">11070</a>, <a href = "P011113.html" target="mainContent">11113</a>, <a href = "P020025.html" target="mainContent">20025</a>, <a href = "P020040.html" target="mainContent">20040</a>, <a href = "P020042.html" target="mainContent">20042</a>, <a href = "P020049.html" target="mainContent">20049</a>, <a href = "P020054.html" target="mainContent">20054</a>, <a href = "P020072.html" target="mainContent">20072</a>, <a href = "P020089.html" target="mainContent">20089</a>, <a href = "P020107.html" target="mainContent">20107</a>, <a href = "P020113.html" target="mainContent">20113</a>, <a href = "P020140.html" target="mainContent">20140</a>, <a href = "P020141.html" target="mainContent">20141</a>, <a href = "P020166.html" target="mainContent">20166</a>, <a href = "P020211.html" target="mainContent">20211</a>, <a href = "P020213.html" target="mainContent">20213</a>, <a href = "P020256.html" target="mainContent">20256</a>, <a href = "P020274.html" target="mainContent">20274</a>, <a href = "P020275.html" target="mainContent">20275</a>, <a href = "P020281.html" target="mainContent">20281</a>, <a href = "P020330.html" target="mainContent">20330</a>, <a href = "P020333.html" target="mainContent">20333</a>, <a href = "P020338.html" target="mainContent">20338</a>, <a href = "P020340.html" target="mainContent">20340</a>, <a href = "P020342.html" target="mainContent">20342</a>, <a href = "P020355.html" target="mainContent">20355</a>, <a href = "P020360.html" target="mainContent">20360</a>, <a href = "P020370.html" target="mainContent">20370</a>, <a href = "P020379.html" target="mainContent">20379</a>, <a href = "P020380.html" target="mainContent">20380</a>, <a href = "P020383.html" target="mainContent">20383</a>, <a href = "P020391.html" target="mainContent">20391</a>, <a href = "P020397.html" target="mainContent">20397</a>, <a href = "P020401.html" target="mainContent">20401</a>, <a href = "P020461.html" target="mainContent">20461</a>, <a href = "P020466.html" target="mainContent">20466</a>, <a href = "P020485.html" target="mainContent">20485</a>, <a href = "P020489.html" target="mainContent">20489</a>, <a href = "P020492.html" target="mainContent">20492</a>, <a href = "P020573.html" target="mainContent">20573</a>, <a href = "P292940.html" target="mainContent">292940</a>, <a href = "P393799.html" target="mainContent">393799</a></td>
+            </tr>
+            <tr>
+              <td>šar</td>
+              <td>MIX</td>
+              <td>122</td>
+              <td><a href = "P000110.html" target="mainContent">110</a>, <a href = "P000118.html" target="mainContent">118</a>, <a href = "P000181.html" target="mainContent">181</a>, <a href = "P000235.html" target="mainContent">235</a>, <a href = "P000261.html" target="mainContent">261</a>, <a href = "P000266.html" target="mainContent">266</a>, <a href = "P000290.html" target="mainContent">290</a>, <a href = "P000291.html" target="mainContent">291</a>, <a href = "P000292.html" target="mainContent">292</a>, <a href = "P000310.html" target="mainContent">310</a>, <a href = "P000417.html" target="mainContent">417</a>, <a href = "P000474.html" target="mainContent">474</a>, <a href = "P000500.html" target="mainContent">500</a>, <a href = "P000520.html" target="mainContent">520</a>, <a href = "P000664.html" target="mainContent">664</a>, <a href = "P001374.html" target="mainContent">1374</a>, <a href = "P001689.html" target="mainContent">1689</a>, <a href = "P001797.html" target="mainContent">1797</a>, <a href = "P001819.html" target="mainContent">1819</a>, <a href = "P001838.html" target="mainContent">1838</a>, <a href = "P002237.html" target="mainContent">2237</a>, <a href = "P002628.html" target="mainContent">2628</a>, <a href = "P002695.html" target="mainContent">2695</a>, <a href = "P002713.html" target="mainContent">2713</a>, <a href = "P002715.html" target="mainContent">2715</a>, <a href = "P002737.html" target="mainContent">2737</a>, <a href = "P002741.html" target="mainContent">2741</a>, <a href = "P002744.html" target="mainContent">2744</a>, <a href = "P002771.html" target="mainContent">2771</a>, <a href = "P002815.html" target="mainContent">2815</a>, <a href = "P003230.html" target="mainContent">3230</a>, <a href = "P003269.html" target="mainContent">3269</a>, <a href = "P003499.html" target="mainContent">3499</a>, <a href = "P003520.html" target="mainContent">3520</a>, <a href = "P003809.html" target="mainContent">3809</a>, <a href = "P003897.html" target="mainContent">3897</a>, <a href = "P003932.html" target="mainContent">3932</a>, <a href = "P004066.html" target="mainContent">4066</a>, <a href = "P004344.html" target="mainContent">4344</a>, <a href = "P004452.html" target="mainContent">4452</a>, <a href = "P004464.html" target="mainContent">4464</a>, <a href = "P004570.html" target="mainContent">4570</a>, <a href = "P004763.html" target="mainContent">4763</a>, <a href = "P004905.html" target="mainContent">4905</a>, <a href = "P004969.html" target="mainContent">4969</a>, <a href = "P005314.html" target="mainContent">5314</a>, <a href = "P005319.html" target="mainContent">5319</a>, <a href = "P005332.html" target="mainContent">5332</a>, <a href = "P005391.html" target="mainContent">5391</a>, <a href = "P005417.html" target="mainContent">5417</a>, <a href = "P005431.html" target="mainContent">5431</a>, <a href = "P005438.html" target="mainContent">5438</a>, <a href = "P005442.html" target="mainContent">5442</a>, <a href = "P005579.html" target="mainContent">5579</a>, <a href = "P005588.html" target="mainContent">5588</a>, <a href = "P005590.html" target="mainContent">5590</a>, <a href = "P005597.html" target="mainContent">5597</a>, <a href = "P005598.html" target="mainContent">5598</a>, <a href = "P005606.html" target="mainContent">5606</a>, <a href = "P005643.html" target="mainContent">5643</a>, <a href = "P005673.html" target="mainContent">5673</a>, <a href = "P005680.html" target="mainContent">5680</a>, <a href = "P005687.html" target="mainContent">5687</a>, <a href = "P005699.html" target="mainContent">5699</a>, <a href = "P005723.html" target="mainContent">5723</a>, <a href = "P005725.html" target="mainContent">5725</a>, <a href = "P005745.html" target="mainContent">5745</a>, <a href = "P005753.html" target="mainContent">5753</a>, <a href = "P005756.html" target="mainContent">5756</a>, <a href = "P005762.html" target="mainContent">5762</a>, <a href = "P005772.html" target="mainContent">5772</a>, <a href = "P005817.html" target="mainContent">5817</a>, <a href = "P005822.html" target="mainContent">5822</a>, <a href = "P005831.html" target="mainContent">5831</a>, <a href = "P005876.html" target="mainContent">5876</a>, <a href = "P005887.html" target="mainContent">5887</a>, <a href = "P005889.html" target="mainContent">5889</a>, <a href = "P005941.html" target="mainContent">5941</a>, <a href = "P005946.html" target="mainContent">5946</a>, <a href = "P005958.html" target="mainContent">5958</a>, <a href = "P005978.html" target="mainContent">5978</a>, <a href = "P005979.html" target="mainContent">5979</a>, <a href = "P005987.html" target="mainContent">5987</a>, <a href = "P005998.html" target="mainContent">5998</a>, <a href = "P006040.html" target="mainContent">6040</a>, <a href = "P006186.html" target="mainContent">6186</a>, <a href = "P006283.html" target="mainContent">6283</a>, <a href = "P006332.html" target="mainContent">6332</a>, <a href = "P010086.html" target="mainContent">10086</a>, <a href = "P010583.html" target="mainContent">10583</a>, <a href = "P010649.html" target="mainContent">10649</a>, <a href = "P010650.html" target="mainContent">10650</a>, <a href = "P010796.html" target="mainContent">10796</a>, <a href = "P010841.html" target="mainContent">10841</a>, <a href = "P010894.html" target="mainContent">10894</a>, <a href = "P010929.html" target="mainContent">10929</a>, <a href = "P020281.html" target="mainContent">20281</a>, <a href = "P020282.html" target="mainContent">20282</a>, <a href = "P020390.html" target="mainContent">20390</a></td>
+            </tr>
+            <tr>
+              <td>bala</td>
+              <td>TURN</td>
+              <td>99</td>
+              <td><a href = "P010009.html" target="mainContent">10009</a>, <a href = "P010011.html" target="mainContent">10011</a>, <a href = "P010059.html" target="mainContent">10059</a>, <a href = "P010060.html" target="mainContent">10060</a>, <a href = "P010067.html" target="mainContent">10067</a>, <a href = "P010068.html" target="mainContent">10068</a>, <a href = "P010069.html" target="mainContent">10069</a>, <a href = "P010070.html" target="mainContent">10070</a>, <a href = "P010093.html" target="mainContent">10093</a>, <a href = "P010479.html" target="mainContent">10479</a>, <a href = "P010480.html" target="mainContent">10480</a>, <a href = "P010481.html" target="mainContent">10481</a>, <a href = "P010482.html" target="mainContent">10482</a>, <a href = "P010483.html" target="mainContent">10483</a>, <a href = "P010531.html" target="mainContent">10531</a>, <a href = "P010532.html" target="mainContent">10532</a>, <a href = "P010541.html" target="mainContent">10541</a>, <a href = "P010544.html" target="mainContent">10544</a>, <a href = "P010553.html" target="mainContent">10553</a>, <a href = "P010554.html" target="mainContent">10554</a>, <a href = "P010555.html" target="mainContent">10555</a>, <a href = "P010564.html" target="mainContent">10564</a>, <a href = "P010655.html" target="mainContent">10655</a>, <a href = "P010693.html" target="mainContent">10693</a>, <a href = "P010954.html" target="mainContent">10954</a>, <a href = "P010989.html" target="mainContent">10989</a>, <a href = "P010990.html" target="mainContent">10990</a>, <a href = "P010991.html" target="mainContent">10991</a>, <a href = "P010992.html" target="mainContent">10992</a>, <a href = "P010993.html" target="mainContent">10993</a>, <a href = "P010994.html" target="mainContent">10994</a>, <a href = "P011048.html" target="mainContent">11048</a>, <a href = "P011055.html" target="mainContent">11055</a>, <a href = "P011057.html" target="mainContent">11057</a>, <a href = "P011113.html" target="mainContent">11113</a>, <a href = "P020004.html" target="mainContent">20004</a>, <a href = "P020025.html" target="mainContent">20025</a>, <a href = "P020096.html" target="mainContent">20096</a>, <a href = "P020097.html" target="mainContent">20097</a>, <a href = "P020107.html" target="mainContent">20107</a>, <a href = "P020137.html" target="mainContent">20137</a>, <a href = "P020141.html" target="mainContent">20141</a>, <a href = "P020195.html" target="mainContent">20195</a>, <a href = "P020237.html" target="mainContent">20237</a>, <a href = "P020246.html" target="mainContent">20246</a>, <a href = "P020248.html" target="mainContent">20248</a>, <a href = "P020249.html" target="mainContent">20249</a>, <a href = "P020250.html" target="mainContent">20250</a>, <a href = "P020256.html" target="mainContent">20256</a>, <a href = "P020274.html" target="mainContent">20274</a>, <a href = "P020281.html" target="mainContent">20281</a>, <a href = "P020301.html" target="mainContent">20301</a>, <a href = "P020321.html" target="mainContent">20321</a>, <a href = "P020340.html" target="mainContent">20340</a>, <a href = "P020342.html" target="mainContent">20342</a>, <a href = "P020386.html" target="mainContent">20386</a>, <a href = "P020472.html" target="mainContent">20472</a>, <a href = "P020485.html" target="mainContent">20485</a>, <a href = "P020489.html" target="mainContent">20489</a>, <a href = "P020492.html" target="mainContent">20492</a>, <a href = "P020495.html" target="mainContent">20495</a></td>
+            </tr>
+            <tr>
+              <td>ed</td>
+              <td>ASCEND</td>
+              <td>92</td>
+              <td><a href = "P010060.html" target="mainContent">10060</a>, <a href = "P010093.html" target="mainContent">10093</a>, <a href = "P010650.html" target="mainContent">10650</a>, <a href = "P010693.html" target="mainContent">10693</a>, <a href = "P010730.html" target="mainContent">10730</a>, <a href = "P010928.html" target="mainContent">10928</a>, <a href = "P011035.html" target="mainContent">11035</a>, <a href = "P020073.html" target="mainContent">20073</a>, <a href = "P020104.html" target="mainContent">20104</a>, <a href = "P020129.html" target="mainContent">20129</a>, <a href = "P020143.html" target="mainContent">20143</a>, <a href = "P020169.html" target="mainContent">20169</a>, <a href = "P020184.html" target="mainContent">20184</a>, <a href = "P020192.html" target="mainContent">20192</a>, <a href = "P020211.html" target="mainContent">20211</a>, <a href = "P020216.html" target="mainContent">20216</a>, <a href = "P020219.html" target="mainContent">20219</a>, <a href = "P020229.html" target="mainContent">20229</a>, <a href = "P020248.html" target="mainContent">20248</a>, <a href = "P020276.html" target="mainContent">20276</a>, <a href = "P020277.html" target="mainContent">20277</a>, <a href = "P020280.html" target="mainContent">20280</a>, <a href = "P020281.html" target="mainContent">20281</a>, <a href = "P020285.html" target="mainContent">20285</a>, <a href = "P020289.html" target="mainContent">20289</a>, <a href = "P020290.html" target="mainContent">20290</a>, <a href = "P020292.html" target="mainContent">20292</a>, <a href = "P020307.html" target="mainContent">20307</a>, <a href = "P020310.html" target="mainContent">20310</a>, <a href = "P020312.html" target="mainContent">20312</a>, <a href = "P020321.html" target="mainContent">20321</a>, <a href = "P020323.html" target="mainContent">20323</a>, <a href = "P020324.html" target="mainContent">20324</a>, <a href = "P020330.html" target="mainContent">20330</a>, <a href = "P020339.html" target="mainContent">20339</a>, <a href = "P020342.html" target="mainContent">20342</a>, <a href = "P020409.html" target="mainContent">20409</a>, <a href = "P020414.html" target="mainContent">20414</a>, <a href = "P020573.html" target="mainContent">20573</a></td>
+            </tr>
+            <tr>
+              <td>la</td>
+              <td>HANG</td>
+              <td>80</td>
+              <td><a href = "P010042.html" target="mainContent">10042</a>, <a href = "P010086.html" target="mainContent">10086</a>, <a href = "P010649.html" target="mainContent">10649</a>, <a href = "P010655.html" target="mainContent">10655</a>, <a href = "P010660.html" target="mainContent">10660</a>, <a href = "P010825.html" target="mainContent">10825</a>, <a href = "P011108.html" target="mainContent">11108</a>, <a href = "P011110.html" target="mainContent">11110</a>, <a href = "P020004.html" target="mainContent">20004</a>, <a href = "P020005.html" target="mainContent">20005</a>, <a href = "P020073.html" target="mainContent">20073</a>, <a href = "P020113.html" target="mainContent">20113</a>, <a href = "P020137.html" target="mainContent">20137</a>, <a href = "P020141.html" target="mainContent">20141</a>, <a href = "P020143.html" target="mainContent">20143</a>, <a href = "P020156.html" target="mainContent">20156</a>, <a href = "P020159.html" target="mainContent">20159</a>, <a href = "P020170.html" target="mainContent">20170</a>, <a href = "P020184.html" target="mainContent">20184</a>, <a href = "P020186.html" target="mainContent">20186</a>, <a href = "P020197.html" target="mainContent">20197</a>, <a href = "P020217.html" target="mainContent">20217</a>, <a href = "P020237.html" target="mainContent">20237</a>, <a href = "P020256.html" target="mainContent">20256</a>, <a href = "P020281.html" target="mainContent">20281</a>, <a href = "P020328.html" target="mainContent">20328</a>, <a href = "P020334.html" target="mainContent">20334</a>, <a href = "P020340.html" target="mainContent">20340</a>, <a href = "P020342.html" target="mainContent">20342</a>, <a href = "P020348.html" target="mainContent">20348</a>, <a href = "P020364.html" target="mainContent">20364</a>, <a href = "P020379.html" target="mainContent">20379</a>, <a href = "P020384.html" target="mainContent">20384</a>, <a href = "P020388.html" target="mainContent">20388</a>, <a href = "P020395.html" target="mainContent">20395</a>, <a href = "P020397.html" target="mainContent">20397</a>, <a href = "P020407.html" target="mainContent">20407</a>, <a href = "P020466.html" target="mainContent">20466</a>, <a href = "P020494.html" target="mainContent">20494</a>, <a href = "P020567.html" target="mainContent">20567</a>, <a href = "P020573.html" target="mainContent">20573</a>, <a href = "P393799.html" target="mainContent">393799</a></td>
+            </tr>
+            <tr>
+              <td>saŋŋa</td>
+              <td>OFFICIAL</td>
+              <td>77</td>
+              <td><a href = "P010043.html" target="mainContent">10043</a>, <a href = "P010078.html" target="mainContent">10078</a>, <a href = "P010581.html" target="mainContent">10581</a>, <a href = "P010583.html" target="mainContent">10583</a>, <a href = "P010655.html" target="mainContent">10655</a>, <a href = "P010906.html" target="mainContent">10906</a>, <a href = "P020005.html" target="mainContent">20005</a>, <a href = "P020025.html" target="mainContent">20025</a>, <a href = "P020042.html" target="mainContent">20042</a>, <a href = "P020070.html" target="mainContent">20070</a>, <a href = "P020107.html" target="mainContent">20107</a>, <a href = "P020141.html" target="mainContent">20141</a>, <a href = "P020169.html" target="mainContent">20169</a>, <a href = "P020184.html" target="mainContent">20184</a>, <a href = "P020190.html" target="mainContent">20190</a>, <a href = "P020234.html" target="mainContent">20234</a>, <a href = "P020252.html" target="mainContent">20252</a>, <a href = "P020297.html" target="mainContent">20297</a>, <a href = "P020328.html" target="mainContent">20328</a>, <a href = "P020331.html" target="mainContent">20331</a>, <a href = "P020344.html" target="mainContent">20344</a>, <a href = "P020358.html" target="mainContent">20358</a>, <a href = "P020363.html" target="mainContent">20363</a>, <a href = "P020387.html" target="mainContent">20387</a>, <a href = "P020394.html" target="mainContent">20394</a>, <a href = "P020426.html" target="mainContent">20426</a>, <a href = "P020431.html" target="mainContent">20431</a>, <a href = "P020495.html" target="mainContent">20495</a>, <a href = "P020502.html" target="mainContent">20502</a>, <a href = "P020524.html" target="mainContent">20524</a></td>
+            </tr>
+            <tr>
+              <td>tag</td>
+              <td>TOUCH</td>
+              <td>77</td>
+              <td><a href = "P010053.html" target="mainContent">10053</a>, <a href = "P010078.html" target="mainContent">10078</a>, <a href = "P010080.html" target="mainContent">10080</a>, <a href = "P010086.html" target="mainContent">10086</a>, <a href = "P010532.html" target="mainContent">10532</a>, <a href = "P010586.html" target="mainContent">10586</a>, <a href = "P010632.html" target="mainContent">10632</a>, <a href = "P010649.html" target="mainContent">10649</a>, <a href = "P010650.html" target="mainContent">10650</a>, <a href = "P010660.html" target="mainContent">10660</a>, <a href = "P010663.html" target="mainContent">10663</a>, <a href = "P010822.html" target="mainContent">10822</a>, <a href = "P011099.html" target="mainContent">11099</a>, <a href = "P020039.html" target="mainContent">20039</a>, <a href = "P020054.html" target="mainContent">20054</a>, <a href = "P020087.html" target="mainContent">20087</a>, <a href = "P020089.html" target="mainContent">20089</a>, <a href = "P020140.html" target="mainContent">20140</a>, <a href = "P020169.html" target="mainContent">20169</a>, <a href = "P020249.html" target="mainContent">20249</a>, <a href = "P020268.html" target="mainContent">20268</a>, <a href = "P020275.html" target="mainContent">20275</a>, <a href = "P020281.html" target="mainContent">20281</a>, <a href = "P020282.html" target="mainContent">20282</a>, <a href = "P020340.html" target="mainContent">20340</a>, <a href = "P020342.html" target="mainContent">20342</a>, <a href = "P020355.html" target="mainContent">20355</a>, <a href = "P020361.html" target="mainContent">20361</a>, <a href = "P020392.html" target="mainContent">20392</a>, <a href = "P020472.html" target="mainContent">20472</a>, <a href = "P020475.html" target="mainContent">20475</a>, <a href = "P020487.html" target="mainContent">20487</a>, <a href = "P020573.html" target="mainContent">20573</a>, <a href = "P020578.html" target="mainContent">20578</a>, <a href = "P342799.html" target="mainContent">342799</a>, <a href = "P393799.html" target="mainContent">393799</a></td>
+            </tr>
+            <tr>
+              <td>na</td>
+              <td>STONE</td>
+              <td>63</td>
+              <td><a href = "P010039.html" target="mainContent">10039</a>, <a href = "P010093.html" target="mainContent">10093</a>, <a href = "P010097.html" target="mainContent">10097</a>, <a href = "P010431.html" target="mainContent">10431</a>, <a href = "P010532.html" target="mainContent">10532</a>, <a href = "P010660.html" target="mainContent">10660</a>, <a href = "P010663.html" target="mainContent">10663</a>, <a href = "P010810.html" target="mainContent">10810</a>, <a href = "P020069.html" target="mainContent">20069</a>, <a href = "P020073.html" target="mainContent">20073</a>, <a href = "P020113.html" target="mainContent">20113</a>, <a href = "P020170.html" target="mainContent">20170</a>, <a href = "P020192.html" target="mainContent">20192</a>, <a href = "P020226.html" target="mainContent">20226</a>, <a href = "P020260.html" target="mainContent">20260</a>, <a href = "P020281.html" target="mainContent">20281</a>, <a href = "P020286.html" target="mainContent">20286</a>, <a href = "P020342.html" target="mainContent">20342</a>, <a href = "P020348.html" target="mainContent">20348</a>, <a href = "P020350.html" target="mainContent">20350</a>, <a href = "P020364.html" target="mainContent">20364</a>, <a href = "P020379.html" target="mainContent">20379</a>, <a href = "P020388.html" target="mainContent">20388</a>, <a href = "P020391.html" target="mainContent">20391</a>, <a href = "P020395.html" target="mainContent">20395</a>, <a href = "P020397.html" target="mainContent">20397</a>, <a href = "P020437.html" target="mainContent">20437</a>, <a href = "P393799.html" target="mainContent">393799</a></td>
+            </tr>
+            <tr>
+              <td>sar||su</td>
+              <td>RUN||SINK||WRITE</td>
+              <td>57</td>
+              <td><a href = "P010843.html" target="mainContent">10843</a>, <a href = "P020052.html" target="mainContent">20052</a>, <a href = "P020073.html" target="mainContent">20073</a>, <a href = "P020113.html" target="mainContent">20113</a>, <a href = "P020123.html" target="mainContent">20123</a>, <a href = "P020131.html" target="mainContent">20131</a>, <a href = "P020170.html" target="mainContent">20170</a>, <a href = "P020281.html" target="mainContent">20281</a>, <a href = "P020311.html" target="mainContent">20311</a>, <a href = "P020324.html" target="mainContent">20324</a>, <a href = "P020334.html" target="mainContent">20334</a>, <a href = "P020342.html" target="mainContent">20342</a>, <a href = "P020348.html" target="mainContent">20348</a>, <a href = "P020364.html" target="mainContent">20364</a>, <a href = "P020379.html" target="mainContent">20379</a>, <a href = "P020382.html" target="mainContent">20382</a>, <a href = "P020388.html" target="mainContent">20388</a>, <a href = "P020389.html" target="mainContent">20389</a>, <a href = "P020395.html" target="mainContent">20395</a>, <a href = "P020397.html" target="mainContent">20397</a>, <a href = "P020407.html" target="mainContent">20407</a>, <a href = "P020422.html" target="mainContent">20422</a>, <a href = "P020554.html" target="mainContent">20554</a></td>
+            </tr>
+            <tr>
+              <td>sar</td>
+              <td>RUN||SHARPEN||SHAVE||SMOKE||WRITE</td>
+              <td>57</td>
+              <td><a href = "P010068.html" target="mainContent">10068</a>, <a href = "P010436.html" target="mainContent">10436</a>, <a href = "P010479.html" target="mainContent">10479</a>, <a href = "P010480.html" target="mainContent">10480</a>, <a href = "P010482.html" target="mainContent">10482</a>, <a href = "P010483.html" target="mainContent">10483</a>, <a href = "P010489.html" target="mainContent">10489</a>, <a href = "P010544.html" target="mainContent">10544</a>, <a href = "P010564.html" target="mainContent">10564</a>, <a href = "P010581.html" target="mainContent">10581</a>, <a href = "P010583.html" target="mainContent">10583</a>, <a href = "P010649.html" target="mainContent">10649</a>, <a href = "P010660.html" target="mainContent">10660</a>, <a href = "P010730.html" target="mainContent">10730</a>, <a href = "P010801.html" target="mainContent">10801</a>, <a href = "P010992.html" target="mainContent">10992</a>, <a href = "P011096.html" target="mainContent">11096</a>, <a href = "P020054.html" target="mainContent">20054</a>, <a href = "P020131.html" target="mainContent">20131</a>, <a href = "P020282.html" target="mainContent">20282</a>, <a href = "P020304.html" target="mainContent">20304</a>, <a href = "P020310.html" target="mainContent">20310</a>, <a href = "P020342.html" target="mainContent">20342</a>, <a href = "P020346.html" target="mainContent">20346</a>, <a href = "P020485.html" target="mainContent">20485</a>, <a href = "P020489.html" target="mainContent">20489</a>, <a href = "P020492.html" target="mainContent">20492</a>, <a href = "P020573.html" target="mainContent">20573</a>, <a href = "P393799.html" target="mainContent">393799</a></td>
+            </tr>
+            <tr>
+              <td>eš</td>
+              <td>ROPE</td>
+              <td>53</td>
+              <td><a href = "P010049.html" target="mainContent">10049</a>, <a href = "P010059.html" target="mainContent">10059</a>, <a href = "P010093.html" target="mainContent">10093</a>, <a href = "P010544.html" target="mainContent">10544</a>, <a href = "P010553.html" target="mainContent">10553</a>, <a href = "P010655.html" target="mainContent">10655</a>, <a href = "P010810.html" target="mainContent">10810</a>, <a href = "P020129.html" target="mainContent">20129</a>, <a href = "P020184.html" target="mainContent">20184</a>, <a href = "P020190.html" target="mainContent">20190</a>, <a href = "P020280.html" target="mainContent">20280</a>, <a href = "P020305.html" target="mainContent">20305</a>, <a href = "P020308.html" target="mainContent">20308</a>, <a href = "P020310.html" target="mainContent">20310</a>, <a href = "P020312.html" target="mainContent">20312</a>, <a href = "P020352.html" target="mainContent">20352</a>, <a href = "P020389.html" target="mainContent">20389</a>, <a href = "P020492.html" target="mainContent">20492</a></td>
+            </tr>
+            <tr>
+              <td>gag||gaz</td>
+              <td>KILL||NAIL</td>
+              <td>50</td>
+              <td><a href = "P010016.html" target="mainContent">10016</a>, <a href = "P010017.html" target="mainContent">10017</a>, <a href = "P010019.html" target="mainContent">10019</a>, <a href = "P010078.html" target="mainContent">10078</a>, <a href = "P010581.html" target="mainContent">10581</a>, <a href = "P010583.html" target="mainContent">10583</a>, <a href = "P010586.html" target="mainContent">10586</a>, <a href = "P010588.html" target="mainContent">10588</a>, <a href = "P010650.html" target="mainContent">10650</a>, <a href = "P010929.html" target="mainContent">10929</a>, <a href = "P020005.html" target="mainContent">20005</a>, <a href = "P020108.html" target="mainContent">20108</a>, <a href = "P020171.html" target="mainContent">20171</a>, <a href = "P020184.html" target="mainContent">20184</a></td>
+            </tr>
+            <tr>
+              <td>dab||dub</td>
+              <td>GO AROUND||HEAP||TABLET</td>
+              <td>46</td>
+              <td><a href = "P010019.html" target="mainContent">10019</a>, <a href = "P010084.html" target="mainContent">10084</a>, <a href = "P010086.html" target="mainContent">10086</a>, <a href = "P010093.html" target="mainContent">10093</a>, <a href = "P010094.html" target="mainContent">10094</a>, <a href = "P010099.html" target="mainContent">10099</a>, <a href = "P010102.html" target="mainContent">10102</a>, <a href = "P010104.html" target="mainContent">10104</a>, <a href = "P010439.html" target="mainContent">10439</a>, <a href = "P010441.html" target="mainContent">10441</a>, <a href = "P010492.html" target="mainContent">10492</a>, <a href = "P010515.html" target="mainContent">10515</a>, <a href = "P010549.html" target="mainContent">10549</a>, <a href = "P010562.html" target="mainContent">10562</a>, <a href = "P010720.html" target="mainContent">10720</a>, <a href = "P010749.html" target="mainContent">10749</a>, <a href = "P010825.html" target="mainContent">10825</a>, <a href = "P010907.html" target="mainContent">10907</a>, <a href = "P010965.html" target="mainContent">10965</a>, <a href = "P010971.html" target="mainContent">10971</a>, <a href = "P010978.html" target="mainContent">10978</a>, <a href = "P010982.html" target="mainContent">10982</a>, <a href = "P011027.html" target="mainContent">11027</a>, <a href = "P011028.html" target="mainContent">11028</a>, <a href = "P011035.html" target="mainContent">11035</a>, <a href = "P011063.html" target="mainContent">11063</a>, <a href = "P011096.html" target="mainContent">11096</a>, <a href = "P011110.html" target="mainContent">11110</a>, <a href = "P020074.html" target="mainContent">20074</a>, <a href = "P020117.html" target="mainContent">20117</a>, <a href = "P020141.html" target="mainContent">20141</a>, <a href = "P020143.html" target="mainContent">20143</a>, <a href = "P020191.html" target="mainContent">20191</a>, <a href = "P020256.html" target="mainContent">20256</a>, <a href = "P020265.html" target="mainContent">20265</a>, <a href = "P020281.html" target="mainContent">20281</a>, <a href = "P020330.html" target="mainContent">20330</a>, <a href = "P020342.html" target="mainContent">20342</a>, <a href = "P020384.html" target="mainContent">20384</a>, <a href = "P020393.html" target="mainContent">20393</a>, <a href = "P020495.html" target="mainContent">20495</a>, <a href = "P020520.html" target="mainContent">20520</a>, <a href = "P399874.html" target="mainContent">399874</a></td>
+            </tr>
+            <tr>
+              <td>lu</td>
+              <td>MIX</td>
+              <td>44</td>
+              <td><a href = "P010034.html" target="mainContent">10034</a>, <a href = "P010083.html" target="mainContent">10083</a>, <a href = "P010093.html" target="mainContent">10093</a>, <a href = "P010102.html" target="mainContent">10102</a>, <a href = "P010501.html" target="mainContent">10501</a>, <a href = "P010524.html" target="mainContent">10524</a>, <a href = "P010576.html" target="mainContent">10576</a>, <a href = "P010655.html" target="mainContent">10655</a>, <a href = "P010700.html" target="mainContent">10700</a>, <a href = "P010706.html" target="mainContent">10706</a>, <a href = "P010764.html" target="mainContent">10764</a>, <a href = "P010780.html" target="mainContent">10780</a>, <a href = "P010837.html" target="mainContent">10837</a>, <a href = "P010848.html" target="mainContent">10848</a>, <a href = "P010962.html" target="mainContent">10962</a>, <a href = "P010963.html" target="mainContent">10963</a>, <a href = "P010964.html" target="mainContent">10964</a>, <a href = "P010972.html" target="mainContent">10972</a>, <a href = "P010975.html" target="mainContent">10975</a>, <a href = "P010979.html" target="mainContent">10979</a>, <a href = "P011008.html" target="mainContent">11008</a>, <a href = "P011010.html" target="mainContent">11010</a>, <a href = "P011014.html" target="mainContent">11014</a>, <a href = "P011027.html" target="mainContent">11027</a>, <a href = "P011028.html" target="mainContent">11028</a>, <a href = "P011033.html" target="mainContent">11033</a>, <a href = "P011034.html" target="mainContent">11034</a>, <a href = "P011035.html" target="mainContent">11035</a>, <a href = "P011058.html" target="mainContent">11058</a>, <a href = "P011063.html" target="mainContent">11063</a>, <a href = "P011080.html" target="mainContent">11080</a>, <a href = "P011082.html" target="mainContent">11082</a>, <a href = "P011107.html" target="mainContent">11107</a>, <a href = "P011112.html" target="mainContent">11112</a></td>
+            </tr>
+            <tr>
+              <td>gid</td>
+              <td>DRAG||LONG</td>
+              <td>43</td>
+              <td><a href = "P010078.html" target="mainContent">10078</a>, <a href = "P010655.html" target="mainContent">10655</a>, <a href = "P020054.html" target="mainContent">20054</a>, <a href = "P020063.html" target="mainContent">20063</a>, <a href = "P020069.html" target="mainContent">20069</a>, <a href = "P020088.html" target="mainContent">20088</a>, <a href = "P020184.html" target="mainContent">20184</a>, <a href = "P020190.html" target="mainContent">20190</a>, <a href = "P020228.html" target="mainContent">20228</a>, <a href = "P020252.html" target="mainContent">20252</a>, <a href = "P020267.html" target="mainContent">20267</a>, <a href = "P020281.html" target="mainContent">20281</a>, <a href = "P020282.html" target="mainContent">20282</a>, <a href = "P020285.html" target="mainContent">20285</a>, <a href = "P020339.html" target="mainContent">20339</a>, <a href = "P020342.html" target="mainContent">20342</a>, <a href = "P020352.html" target="mainContent">20352</a>, <a href = "P020360.html" target="mainContent">20360</a>, <a href = "P020472.html" target="mainContent">20472</a>, <a href = "P020475.html" target="mainContent">20475</a>, <a href = "P020486.html" target="mainContent">20486</a>, <a href = "P020487.html" target="mainContent">20487</a>, <a href = "P020566.html" target="mainContent">20566</a>, <a href = "P020574.html" target="mainContent">20574</a>, <a href = "P393799.html" target="mainContent">393799</a></td>
+            </tr>
+            <tr>
+              <td>pa</td>
+              <td>BRANCH</td>
+              <td>35</td>
+              <td><a href = "P010102.html" target="mainContent">10102</a>, <a href = "P010650.html" target="mainContent">10650</a>, <a href = "P020073.html" target="mainContent">20073</a>, <a href = "P020088.html" target="mainContent">20088</a>, <a href = "P020113.html" target="mainContent">20113</a>, <a href = "P020170.html" target="mainContent">20170</a>, <a href = "P020189.html" target="mainContent">20189</a>, <a href = "P020334.html" target="mainContent">20334</a>, <a href = "P020348.html" target="mainContent">20348</a>, <a href = "P020364.html" target="mainContent">20364</a>, <a href = "P020379.html" target="mainContent">20379</a>, <a href = "P020388.html" target="mainContent">20388</a>, <a href = "P020395.html" target="mainContent">20395</a>, <a href = "P020397.html" target="mainContent">20397</a>, <a href = "P020407.html" target="mainContent">20407</a>, <a href = "P020580.html" target="mainContent">20580</a></td>
+            </tr>
+            <tr>
+              <td>gul</td>
+              <td>DESTROY</td>
+              <td>32</td>
+              <td><a href = "P010069.html" target="mainContent">10069</a>, <a href = "P010093.html" target="mainContent">10093</a>, <a href = "P010489.html" target="mainContent">10489</a>, <a href = "P010574.html" target="mainContent">10574</a>, <a href = "P010576.html" target="mainContent">10576</a>, <a href = "P010801.html" target="mainContent">10801</a>, <a href = "P010841.html" target="mainContent">10841</a>, <a href = "P010843.html" target="mainContent">10843</a>, <a href = "P020025.html" target="mainContent">20025</a>, <a href = "P020107.html" target="mainContent">20107</a>, <a href = "P020113.html" target="mainContent">20113</a>, <a href = "P020123.html" target="mainContent">20123</a>, <a href = "P020131.html" target="mainContent">20131</a>, <a href = "P020281.html" target="mainContent">20281</a>, <a href = "P020340.html" target="mainContent">20340</a>, <a href = "P020342.html" target="mainContent">20342</a>, <a href = "P020346.html" target="mainContent">20346</a>, <a href = "P020351.html" target="mainContent">20351</a>, <a href = "P020397.html" target="mainContent">20397</a>, <a href = "P020494.html" target="mainContent">20494</a></td>
+            </tr>
+            <tr>
+              <td>šid</td>
+              <td>COUNT</td>
+              <td>27</td>
+              <td><a href = "P010556.html" target="mainContent">10556</a>, <a href = "P010632.html" target="mainContent">10632</a>, <a href = "P020081.html" target="mainContent">20081</a>, <a href = "P020171.html" target="mainContent">20171</a>, <a href = "P020189.html" target="mainContent">20189</a>, <a href = "P020203.html" target="mainContent">20203</a>, <a href = "P020224.html" target="mainContent">20224</a>, <a href = "P020232.html" target="mainContent">20232</a>, <a href = "P020234.html" target="mainContent">20234</a>, <a href = "P020251.html" target="mainContent">20251</a>, <a href = "P020254.html" target="mainContent">20254</a>, <a href = "P020270.html" target="mainContent">20270</a>, <a href = "P020307.html" target="mainContent">20307</a>, <a href = "P020322.html" target="mainContent">20322</a>, <a href = "P020333.html" target="mainContent">20333</a>, <a href = "P020338.html" target="mainContent">20338</a>, <a href = "P020344.html" target="mainContent">20344</a>, <a href = "P020346.html" target="mainContent">20346</a>, <a href = "P020350.html" target="mainContent">20350</a>, <a href = "P020363.html" target="mainContent">20363</a>, <a href = "P020380.html" target="mainContent">20380</a>, <a href = "P020401.html" target="mainContent">20401</a>, <a href = "P020440.html" target="mainContent">20440</a>, <a href = "P020494.html" target="mainContent">20494</a>, <a href = "P020520.html" target="mainContent">20520</a></td>
+            </tr>
+            <tr>
+              <td>dab||dag||dar</td>
+              <td>DEMOLISH||GO AROUND||SPLIT</td>
+              <td>26</td>
+              <td><a href = "P010086.html" target="mainContent">10086</a>, <a href = "P010649.html" target="mainContent">10649</a>, <a href = "P010650.html" target="mainContent">10650</a>, <a href = "P020088.html" target="mainContent">20088</a>, <a href = "P020123.html" target="mainContent">20123</a>, <a href = "P020129.html" target="mainContent">20129</a>, <a href = "P020190.html" target="mainContent">20190</a>, <a href = "P020195.html" target="mainContent">20195</a>, <a href = "P020280.html" target="mainContent">20280</a>, <a href = "P020293.html" target="mainContent">20293</a>, <a href = "P020299.html" target="mainContent">20299</a>, <a href = "P020307.html" target="mainContent">20307</a>, <a href = "P020310.html" target="mainContent">20310</a>, <a href = "P020312.html" target="mainContent">20312</a>, <a href = "P020322.html" target="mainContent">20322</a>, <a href = "P020339.html" target="mainContent">20339</a>, <a href = "P020352.html" target="mainContent">20352</a>, <a href = "P020382.html" target="mainContent">20382</a>, <a href = "P020469.html" target="mainContent">20469</a>, <a href = "P020472.html" target="mainContent">20472</a></td>
+            </tr>
+            <tr>
+              <td>zib</td>
+              <td>MARK</td>
+              <td>25</td>
+              <td><a href = "P010012.html" target="mainContent">10012</a>, <a href = "P010043.html" target="mainContent">10043</a>, <a href = "P010928.html" target="mainContent">10928</a>, <a href = "P020042.html" target="mainContent">20042</a>, <a href = "P020049.html" target="mainContent">20049</a>, <a href = "P020071.html" target="mainContent">20071</a>, <a href = "P020072.html" target="mainContent">20072</a>, <a href = "P020143.html" target="mainContent">20143</a>, <a href = "P020160.html" target="mainContent">20160</a>, <a href = "P020166.html" target="mainContent">20166</a>, <a href = "P020232.html" target="mainContent">20232</a>, <a href = "P020274.html" target="mainContent">20274</a>, <a href = "P020281.html" target="mainContent">20281</a>, <a href = "P020333.html" target="mainContent">20333</a>, <a href = "P020338.html" target="mainContent">20338</a>, <a href = "P020342.html" target="mainContent">20342</a>, <a href = "P020352.html" target="mainContent">20352</a>, <a href = "P020366.html" target="mainContent">20366</a>, <a href = "P020380.html" target="mainContent">20380</a>, <a href = "P020383.html" target="mainContent">20383</a>, <a href = "P020384.html" target="mainContent">20384</a>, <a href = "P020391.html" target="mainContent">20391</a>, <a href = "P020397.html" target="mainContent">20397</a>, <a href = "P020401.html" target="mainContent">20401</a>, <a href = "P020414.html" target="mainContent">20414</a></td>
+            </tr>
+            <tr>
+              <td>kešed</td>
+              <td>BIND</td>
+              <td>24</td>
+              <td><a href = "P010660.html" target="mainContent">10660</a>, <a href = "P010810.html" target="mainContent">10810</a>, <a href = "P020072.html" target="mainContent">20072</a>, <a href = "P020089.html" target="mainContent">20089</a>, <a href = "P020129.html" target="mainContent">20129</a>, <a href = "P020281.html" target="mainContent">20281</a>, <a href = "P020342.html" target="mainContent">20342</a></td>
+            </tr>
+            <tr>
+              <td>ur</td>
+              <td>DRAG</td>
+              <td>24</td>
+              <td><a href = "P010086.html" target="mainContent">10086</a>, <a href = "P010102.html" target="mainContent">10102</a>, <a href = "P010581.html" target="mainContent">10581</a>, <a href = "P010583.html" target="mainContent">10583</a>, <a href = "P010649.html" target="mainContent">10649</a>, <a href = "P011066.html" target="mainContent">11066</a>, <a href = "P020189.html" target="mainContent">20189</a>, <a href = "P020281.html" target="mainContent">20281</a>, <a href = "P020307.html" target="mainContent">20307</a>, <a href = "P020342.html" target="mainContent">20342</a>, <a href = "P020379.html" target="mainContent">20379</a>, <a href = "P020392.html" target="mainContent">20392</a>, <a href = "P020443.html" target="mainContent">20443</a></td>
+            </tr>
+            <tr>
+              <td>dar</td>
+              <td>SPLIT</td>
+              <td>23</td>
+              <td><a href = "P010649.html" target="mainContent">10649</a>, <a href = "P010966.html" target="mainContent">10966</a>, <a href = "P010971.html" target="mainContent">10971</a>, <a href = "P010982.html" target="mainContent">10982</a>, <a href = "P011057.html" target="mainContent">11057</a>, <a href = "P020004.html" target="mainContent">20004</a>, <a href = "P020005.html" target="mainContent">20005</a>, <a href = "P020039.html" target="mainContent">20039</a>, <a href = "P020170.html" target="mainContent">20170</a>, <a href = "P020249.html" target="mainContent">20249</a>, <a href = "P020307.html" target="mainContent">20307</a>, <a href = "P020361.html" target="mainContent">20361</a>, <a href = "P020396.html" target="mainContent">20396</a>, <a href = "P020532.html" target="mainContent">20532</a></td>
+            </tr>
+            <tr>
+              <td>zadim</td>
+              <td>STONE-CUTTER</td>
+              <td>23</td>
+              <td><a href = "P010049.html" target="mainContent">10049</a>, <a href = "P010083.html" target="mainContent">10083</a>, <a href = "P010101.html" target="mainContent">10101</a>, <a href = "P010548.html" target="mainContent">10548</a>, <a href = "P010576.html" target="mainContent">10576</a>, <a href = "P010650.html" target="mainContent">10650</a>, <a href = "P010663.html" target="mainContent">10663</a>, <a href = "P010772.html" target="mainContent">10772</a>, <a href = "P010791.html" target="mainContent">10791</a>, <a href = "P010836.html" target="mainContent">10836</a>, <a href = "P010969.html" target="mainContent">10969</a>, <a href = "P010982.html" target="mainContent">10982</a>, <a href = "P011027.html" target="mainContent">11027</a>, <a href = "P011028.html" target="mainContent">11028</a>, <a href = "P011034.html" target="mainContent">11034</a>, <a href = "P020110.html" target="mainContent">20110</a>, <a href = "P020247.html" target="mainContent">20247</a>, <a href = "P020323.html" target="mainContent">20323</a>, <a href = "P020349.html" target="mainContent">20349</a>, <a href = "P020387.html" target="mainContent">20387</a>, <a href = "P020469.html" target="mainContent">20469</a></td>
+            </tr>
+            <tr>
+              <td>bur</td>
+              <td>TEAR</td>
+              <td>22</td>
+              <td><a href = "P010093.html" target="mainContent">10093</a>, <a href = "P010097.html" target="mainContent">10097</a>, <a href = "P010548.html" target="mainContent">10548</a>, <a href = "P010576.html" target="mainContent">10576</a>, <a href = "P010693.html" target="mainContent">10693</a></td>
+            </tr>
+            <tr>
+              <td>ri</td>
+              <td>IMPOSE</td>
+              <td>22</td>
+              <td><a href = "P005798.html" target="mainContent">5798</a>, <a href = "P010056.html" target="mainContent">10056</a>, <a href = "P010660.html" target="mainContent">10660</a>, <a href = "P010780.html" target="mainContent">10780</a>, <a href = "P010843.html" target="mainContent">10843</a>, <a href = "P010958.html" target="mainContent">10958</a>, <a href = "P011002.html" target="mainContent">11002</a>, <a href = "P011008.html" target="mainContent">11008</a>, <a href = "P011010.html" target="mainContent">11010</a>, <a href = "P020070.html" target="mainContent">20070</a>, <a href = "P020071.html" target="mainContent">20071</a>, <a href = "P020090.html" target="mainContent">20090</a>, <a href = "P020190.html" target="mainContent">20190</a>, <a href = "P020265.html" target="mainContent">20265</a>, <a href = "P020270.html" target="mainContent">20270</a>, <a href = "P020329.html" target="mainContent">20329</a>, <a href = "P020331.html" target="mainContent">20331</a>, <a href = "P020357.html" target="mainContent">20357</a>, <a href = "P020373.html" target="mainContent">20373</a></td>
+            </tr>
+            <tr>
+              <td>umbisaŋ</td>
+              <td>SCRIBE</td>
+              <td>21</td>
+              <td><a href = "P010101.html" target="mainContent">10101</a>, <a href = "P010102.html" target="mainContent">10102</a>, <a href = "P010458.html" target="mainContent">10458</a>, <a href = "P010566.html" target="mainContent">10566</a>, <a href = "P010574.html" target="mainContent">10574</a>, <a href = "P010650.html" target="mainContent">10650</a>, <a href = "P010663.html" target="mainContent">10663</a></td>
+            </tr>
+            <tr>
+              <td>su</td>
+              <td>SINK||SPRINKLE</td>
+              <td>21</td>
+              <td><a href = "P010038.html" target="mainContent">10038</a>, <a href = "P010586.html" target="mainContent">10586</a>, <a href = "P020005.html" target="mainContent">20005</a>, <a href = "P020039.html" target="mainContent">20039</a>, <a href = "P020224.html" target="mainContent">20224</a>, <a href = "P020281.html" target="mainContent">20281</a>, <a href = "P020342.html" target="mainContent">20342</a>, <a href = "P020512.html" target="mainContent">20512</a></td>
+            </tr>
+            <tr>
+              <td>zig</td>
+              <td>RISE</td>
+              <td>21</td>
+              <td><a href = "P010039.html" target="mainContent">10039</a>, <a href = "P010102.html" target="mainContent">10102</a>, <a href = "P010705.html" target="mainContent">10705</a>, <a href = "P010706.html" target="mainContent">10706</a>, <a href = "P010734.html" target="mainContent">10734</a>, <a href = "P010772.html" target="mainContent">10772</a>, <a href = "P010855.html" target="mainContent">10855</a>, <a href = "P010902.html" target="mainContent">10902</a>, <a href = "P010966.html" target="mainContent">10966</a>, <a href = "P010972.html" target="mainContent">10972</a>, <a href = "P010975.html" target="mainContent">10975</a>, <a href = "P010983.html" target="mainContent">10983</a>, <a href = "P011013.html" target="mainContent">11013</a>, <a href = "P011063.html" target="mainContent">11063</a>, <a href = "P011104.html" target="mainContent">11104</a>, <a href = "P020074.html" target="mainContent">20074</a>, <a href = "P020262.html" target="mainContent">20262</a>, <a href = "P020265.html" target="mainContent">20265</a>, <a href = "P020284.html" target="mainContent">20284</a>, <a href = "P020331.html" target="mainContent">20331</a>, <a href = "P020384.html" target="mainContent">20384</a></td>
+            </tr>
+            <tr>
+              <td>gaz</td>
+              <td>KILL</td>
+              <td>20</td>
+              <td><a href = "P010086.html" target="mainContent">10086</a>, <a href = "P010102.html" target="mainContent">10102</a>, <a href = "P010632.html" target="mainContent">10632</a>, <a href = "P010660.html" target="mainContent">10660</a>, <a href = "P010843.html" target="mainContent">10843</a>, <a href = "P010929.html" target="mainContent">10929</a>, <a href = "P020025.html" target="mainContent">20025</a>, <a href = "P020275.html" target="mainContent">20275</a>, <a href = "P020324.html" target="mainContent">20324</a>, <a href = "P020346.html" target="mainContent">20346</a>, <a href = "P020422.html" target="mainContent">20422</a></td>
+            </tr>
+            <tr>
+              <td>dubsar</td>
+              <td>SCRIBE</td>
+              <td>20</td>
+              <td><a href = "P011044.html" target="mainContent">11044</a>, <a href = "P020040.html" target="mainContent">20040</a>, <a href = "P020134.html" target="mainContent">20134</a>, <a href = "P020184.html" target="mainContent">20184</a>, <a href = "P020192.html" target="mainContent">20192</a>, <a href = "P020219.html" target="mainContent">20219</a>, <a href = "P020239.html" target="mainContent">20239</a>, <a href = "P020246.html" target="mainContent">20246</a>, <a href = "P020248.html" target="mainContent">20248</a>, <a href = "P020262.html" target="mainContent">20262</a>, <a href = "P020276.html" target="mainContent">20276</a>, <a href = "P020277.html" target="mainContent">20277</a>, <a href = "P020285.html" target="mainContent">20285</a>, <a href = "P020299.html" target="mainContent">20299</a>, <a href = "P020308.html" target="mainContent">20308</a>, <a href = "P020323.html" target="mainContent">20323</a>, <a href = "P020329.html" target="mainContent">20329</a>, <a href = "P020409.html" target="mainContent">20409</a>, <a href = "P020505.html" target="mainContent">20505</a></td>
+            </tr>
+            <tr>
+              <td>gag</td>
+              <td>NAIL</td>
+              <td>20</td>
+              <td><a href = "P010101.html" target="mainContent">10101</a>, <a href = "P010431.html" target="mainContent">10431</a>, <a href = "P010890.html" target="mainContent">10890</a>, <a href = "P020042.html" target="mainContent">20042</a>, <a href = "P020073.html" target="mainContent">20073</a>, <a href = "P020170.html" target="mainContent">20170</a>, <a href = "P020364.html" target="mainContent">20364</a>, <a href = "P020379.html" target="mainContent">20379</a>, <a href = "P020395.html" target="mainContent">20395</a></td>
+            </tr>
+            <tr>
+              <td>aŋ</td>
+              <td>MEASURE</td>
+              <td>19</td>
+              <td><a href = "P010562.html" target="mainContent">10562</a>, <a href = "P010836.html" target="mainContent">10836</a>, <a href = "P011026.html" target="mainContent">11026</a>, <a href = "P011041.html" target="mainContent">11041</a>, <a href = "P011046.html" target="mainContent">11046</a>, <a href = "P011048.html" target="mainContent">11048</a>, <a href = "P020109.html" target="mainContent">20109</a>, <a href = "P020532.html" target="mainContent">20532</a>, <a href = "P020542.html" target="mainContent">20542</a>, <a href = "P020543.html" target="mainContent">20543</a>, <a href = "P292940.html" target="mainContent">292940</a></td>
+            </tr>
+            <tr>
+              <td>zu</td>
+              <td>KNOW</td>
+              <td>19</td>
+              <td><a href = "P010093.html" target="mainContent">10093</a>, <a href = "P010574.html" target="mainContent">10574</a>, <a href = "P010796.html" target="mainContent">10796</a>, <a href = "P010866.html" target="mainContent">10866</a>, <a href = "P011097.html" target="mainContent">11097</a>, <a href = "P020170.html" target="mainContent">20170</a>, <a href = "P020219.html" target="mainContent">20219</a>, <a href = "P020275.html" target="mainContent">20275</a>, <a href = "P020277.html" target="mainContent">20277</a>, <a href = "P020307.html" target="mainContent">20307</a>, <a href = "P020487.html" target="mainContent">20487</a>, <a href = "P393799.html" target="mainContent">393799</a></td>
+            </tr>
+            <tr>
+              <td>sag</td>
+              <td>BEAT</td>
+              <td>18</td>
+              <td><a href = "P010436.html" target="mainContent">10436</a>, <a href = "P010489.html" target="mainContent">10489</a>, <a href = "P010649.html" target="mainContent">10649</a>, <a href = "P010801.html" target="mainContent">10801</a>, <a href = "P010843.html" target="mainContent">10843</a>, <a href = "P020190.html" target="mainContent">20190</a>, <a href = "P020229.html" target="mainContent">20229</a>, <a href = "P020232.html" target="mainContent">20232</a>, <a href = "P020342.html" target="mainContent">20342</a>, <a href = "P020346.html" target="mainContent">20346</a></td>
+            </tr>
+            <tr>
+              <td>kad</td>
+              <td>TIE</td>
+              <td>18</td>
+              <td><a href = "P000068.html" target="mainContent">68</a>, <a href = "P000125.html" target="mainContent">125</a>, <a href = "P000203.html" target="mainContent">203</a>, <a href = "P000275.html" target="mainContent">275</a>, <a href = "P000361.html" target="mainContent">361</a>, <a href = "P000371.html" target="mainContent">371</a>, <a href = "P000397.html" target="mainContent">397</a>, <a href = "P000517.html" target="mainContent">517</a>, <a href = "P000561.html" target="mainContent">561</a>, <a href = "P000664.html" target="mainContent">664</a>, <a href = "P010581.html" target="mainContent">10581</a>, <a href = "P010583.html" target="mainContent">10583</a>, <a href = "P010649.html" target="mainContent">10649</a>, <a href = "P010655.html" target="mainContent">10655</a></td>
+            </tr>
+            <tr>
+              <td>sag||zi</td>
+              <td>BEAT||CUT</td>
+              <td>16</td>
+              <td><a href = "P010053.html" target="mainContent">10053</a>, <a href = "P010102.html" target="mainContent">10102</a>, <a href = "P010581.html" target="mainContent">10581</a>, <a href = "P010650.html" target="mainContent">10650</a>, <a href = "P010660.html" target="mainContent">10660</a>, <a href = "P010822.html" target="mainContent">10822</a>, <a href = "P010975.html" target="mainContent">10975</a>, <a href = "P020317.html" target="mainContent">20317</a>, <a href = "P020342.html" target="mainContent">20342</a></td>
+            </tr>
+            <tr>
+              <td>dubsarmah</td>
+              <td>OFFICIAL</td>
+              <td>15</td>
+              <td><a href = "P010032.html" target="mainContent">10032</a>, <a href = "P010810.html" target="mainContent">10810</a>, <a href = "P010823.html" target="mainContent">10823</a>, <a href = "P010849.html" target="mainContent">10849</a>, <a href = "P011024.html" target="mainContent">11024</a>, <a href = "P020005.html" target="mainContent">20005</a>, <a href = "P020184.html" target="mainContent">20184</a>, <a href = "P020190.html" target="mainContent">20190</a>, <a href = "P020213.html" target="mainContent">20213</a>, <a href = "P020317.html" target="mainContent">20317</a>, <a href = "P020573.html" target="mainContent">20573</a>, <a href = "P020578.html" target="mainContent">20578</a>, <a href = "P020580.html" target="mainContent">20580</a></td>
+            </tr>
+            <tr>
+              <td>gar||kad</td>
+              <td>KNOB||TIE</td>
+              <td>15</td>
+              <td><a href = "P010080.html" target="mainContent">10080</a>, <a href = "P010437.html" target="mainContent">10437</a>, <a href = "P010586.html" target="mainContent">10586</a>, <a href = "P010588.html" target="mainContent">10588</a>, <a href = "P010590.html" target="mainContent">10590</a>, <a href = "P010650.html" target="mainContent">10650</a>, <a href = "P020389.html" target="mainContent">20389</a>, <a href = "P020443.html" target="mainContent">20443</a></td>
+            </tr>
+            <tr>
+              <td>duʾa</td>
+              <td>AXLE</td>
+              <td>15</td>
+              <td><a href = "P020140.html" target="mainContent">20140</a>, <a href = "P020280.html" target="mainContent">20280</a>, <a href = "P020289.html" target="mainContent">20289</a>, <a href = "P020290.html" target="mainContent">20290</a>, <a href = "P020292.html" target="mainContent">20292</a>, <a href = "P020308.html" target="mainContent">20308</a>, <a href = "P020312.html" target="mainContent">20312</a>, <a href = "P020328.html" target="mainContent">20328</a>, <a href = "P020352.html" target="mainContent">20352</a>, <a href = "P020358.html" target="mainContent">20358</a>, <a href = "P020409.html" target="mainContent">20409</a></td>
+            </tr>
+            <tr>
+              <td>im</td>
+              <td>CLAY</td>
+              <td>15</td>
+              <td><a href = "P010078.html" target="mainContent">10078</a>, <a href = "P010086.html" target="mainContent">10086</a>, <a href = "P010649.html" target="mainContent">10649</a>, <a href = "P010660.html" target="mainContent">10660</a>, <a href = "P010869.html" target="mainContent">10869</a>, <a href = "P020281.html" target="mainContent">20281</a>, <a href = "P020291.html" target="mainContent">20291</a>, <a href = "P020342.html" target="mainContent">20342</a>, <a href = "P020508.html" target="mainContent">20508</a>, <a href = "P393799.html" target="mainContent">393799</a></td>
+            </tr>
+            <tr>
+              <td>ummia</td>
+              <td>EXPERT</td>
+              <td>15</td>
+              <td><a href = "P010049.html" target="mainContent">10049</a>, <a href = "P010059.html" target="mainContent">10059</a>, <a href = "P010068.html" target="mainContent">10068</a>, <a href = "P010094.html" target="mainContent">10094</a>, <a href = "P010099.html" target="mainContent">10099</a>, <a href = "P010101.html" target="mainContent">10101</a>, <a href = "P010479.html" target="mainContent">10479</a>, <a href = "P010480.html" target="mainContent">10480</a>, <a href = "P010482.html" target="mainContent">10482</a>, <a href = "P010483.html" target="mainContent">10483</a>, <a href = "P010544.html" target="mainContent">10544</a>, <a href = "P010553.html" target="mainContent">10553</a>, <a href = "P011112.html" target="mainContent">11112</a>, <a href = "P020485.html" target="mainContent">20485</a>, <a href = "P020492.html" target="mainContent">20492</a></td>
+            </tr>
+            <tr>
+              <td>dub</td>
+              <td>TABLET</td>
+              <td>13</td>
+              <td><a href = "P020004.html" target="mainContent">20004</a>, <a href = "P020008.html" target="mainContent">20008</a>, <a href = "P020081.html" target="mainContent">20081</a>, <a href = "P020205.html" target="mainContent">20205</a>, <a href = "P020261.html" target="mainContent">20261</a>, <a href = "P020275.html" target="mainContent">20275</a></td>
+            </tr>
+            <tr>
+              <td>dub</td>
+              <td>HEAP||TABLET</td>
+              <td>12</td>
+              <td><a href = "P020037.html" target="mainContent">20037</a>, <a href = "P020087.html" target="mainContent">20087</a>, <a href = "P020088.html" target="mainContent">20088</a>, <a href = "P020137.html" target="mainContent">20137</a>, <a href = "P020195.html" target="mainContent">20195</a>, <a href = "P020228.html" target="mainContent">20228</a>, <a href = "P020237.html" target="mainContent">20237</a>, <a href = "P020256.html" target="mainContent">20256</a>, <a href = "P020299.html" target="mainContent">20299</a>, <a href = "P020386.html" target="mainContent">20386</a>, <a href = "P020396.html" target="mainContent">20396</a>, <a href = "P020495.html" target="mainContent">20495</a></td>
+            </tr>
+            <tr>
+              <td>uz</td>
+              <td>DUCK</td>
+              <td>10</td>
+              <td><a href = "P010581.html" target="mainContent">10581</a>, <a href = "P010583.html" target="mainContent">10583</a>, <a href = "P010649.html" target="mainContent">10649</a>, <a href = "P010843.html" target="mainContent">10843</a>, <a href = "P020005.html" target="mainContent">20005</a>, <a href = "P020321.html" target="mainContent">20321</a>, <a href = "P020501.html" target="mainContent">20501</a></td>
+            </tr>
+            <tr>
+              <td>Nisabak</td>
+              <td>1</td>
+              <td>10</td>
+              <td><a href = "P010050.html" target="mainContent">10050</a>, <a href = "P010103.html" target="mainContent">10103</a>, <a href = "P010489.html" target="mainContent">10489</a>, <a href = "P010566.html" target="mainContent">10566</a>, <a href = "P010570.html" target="mainContent">10570</a>, <a href = "P010572.html" target="mainContent">10572</a>, <a href = "P010801.html" target="mainContent">10801</a>, <a href = "P010821.html" target="mainContent">10821</a>, <a href = "P011112.html" target="mainContent">11112</a></td>
+            </tr>
+            <tr>
+              <td>de</td>
+              <td>POUR</td>
+              <td>8</td>
+              <td><a href = "P010663.html" target="mainContent">10663</a>, <a href = "P010869.html" target="mainContent">10869</a>, <a href = "P020075.html" target="mainContent">20075</a>, <a href = "P020124.html" target="mainContent">20124</a>, <a href = "P020146.html" target="mainContent">20146</a>, <a href = "P020153.html" target="mainContent">20153</a>, <a href = "P020248.html" target="mainContent">20248</a>, <a href = "P020276.html" target="mainContent">20276</a></td>
+            </tr>
+            <tr>
+              <td>zi||zig||zir||zu</td>
+              <td>BREAK||CUT||KNOW||RISE</td>
+              <td>7</td>
+              <td><a href = "P010086.html" target="mainContent">10086</a>, <a href = "P010583.html" target="mainContent">10583</a>, <a href = "P010649.html" target="mainContent">10649</a>, <a href = "P010660.html" target="mainContent">10660</a>, <a href = "P011028.html" target="mainContent">11028</a>, <a href = "P020349.html" target="mainContent">20349</a></td>
+            </tr>
+            <tr>
+              <td>zi||zig||zir</td>
+              <td>BREAK||CUT||RISE</td>
+              <td>7</td>
+              <td><a href = "P010706.html" target="mainContent">10706</a>, <a href = "P010886.html" target="mainContent">10886</a>, <a href = "P010960.html" target="mainContent">10960</a>, <a href = "P010966.html" target="mainContent">10966</a>, <a href = "P010975.html" target="mainContent">10975</a>, <a href = "P011033.html" target="mainContent">11033</a>, <a href = "P011064.html" target="mainContent">11064</a></td>
+            </tr>
+            <tr>
+              <td>sar</td>
+              <td>WRITE</td>
+              <td>7</td>
+              <td><a href = "P020065.html" target="mainContent">20065</a>, <a href = "P020307.html" target="mainContent">20307</a>, <a href = "P020341.html" target="mainContent">20341</a>, <a href = "P020382.html" target="mainContent">20382</a>, <a href = "P020414.html" target="mainContent">20414</a></td>
+            </tr>
+            <tr>
+              <td>zir</td>
+              <td>BREAK</td>
+              <td>7</td>
+              <td><a href = "P010907.html" target="mainContent">10907</a>, <a href = "P010960.html" target="mainContent">10960</a>, <a href = "P010965.html" target="mainContent">10965</a>, <a href = "P010975.html" target="mainContent">10975</a>, <a href = "P020161.html" target="mainContent">20161</a>, <a href = "P020507.html" target="mainContent">20507</a>, <a href = "P342799.html" target="mainContent">342799</a></td>
+            </tr>
+            <tr>
+              <td>deg</td>
+              <td>COLLECT</td>
+              <td>7</td>
+              <td><a href = "P010583.html" target="mainContent">10583</a>, <a href = "P020348.html" target="mainContent">20348</a>, <a href = "P020364.html" target="mainContent">20364</a>, <a href = "P020379.html" target="mainContent">20379</a>, <a href = "P020388.html" target="mainContent">20388</a>, <a href = "P020397.html" target="mainContent">20397</a>, <a href = "P020437.html" target="mainContent">20437</a></td>
+            </tr>
+            <tr>
+              <td>kila</td>
+              <td>WEIGHT</td>
+              <td>7</td>
+              <td><a href = "P020069.html" target="mainContent">20069</a>, <a href = "P020192.html" target="mainContent">20192</a>, <a href = "P020567.html" target="mainContent">20567</a></td>
+            </tr>
+            <tr>
+              <td>ugu</td>
+              <td>SKULL</td>
+              <td>7</td>
+              <td><a href = "P010086.html" target="mainContent">10086</a>, <a href = "P010649.html" target="mainContent">10649</a>, <a href = "P020025.html" target="mainContent">20025</a>, <a href = "P020282.html" target="mainContent">20282</a>, <a href = "P020340.html" target="mainContent">20340</a>, <a href = "P020491.html" target="mainContent">20491</a>, <a href = "P393799.html" target="mainContent">393799</a></td>
+            </tr>
+            <tr>
+              <td>gid</td>
+              <td>LONG</td>
+              <td>6</td>
+              <td><a href = "P010012.html" target="mainContent">10012</a>, <a href = "P020054.html" target="mainContent">20054</a>, <a href = "P020072.html" target="mainContent">20072</a>, <a href = "P020215.html" target="mainContent">20215</a>, <a href = "P020293.html" target="mainContent">20293</a>, <a href = "P020355.html" target="mainContent">20355</a></td>
+            </tr>
+            <tr>
+              <td>gabari</td>
+              <td>COPY</td>
+              <td>6</td>
+              <td><a href = "P020070.html" target="mainContent">20070</a>, <a href = "P020088.html" target="mainContent">20088</a>, <a href = "P020254.html" target="mainContent">20254</a>, <a href = "P020270.html" target="mainContent">20270</a></td>
+            </tr>
+            <tr>
+              <td>bisaŋdubak</td>
+              <td>ARCHIVIST</td>
+              <td>6</td>
+              <td><a href = "P010056.html" target="mainContent">10056</a>, <a href = "P010700.html" target="mainContent">10700</a>, <a href = "P020103.html" target="mainContent">20103</a>, <a href = "P020202.html" target="mainContent">20202</a>, <a href = "P020203.html" target="mainContent">20203</a>, <a href = "P020578.html" target="mainContent">20578</a></td>
+            </tr>
+            <tr>
+              <td>suhur</td>
+              <td>INSERT||TOOL</td>
+              <td>6</td>
+              <td><a href = "P010078.html" target="mainContent">10078</a>, <a href = "P010581.html" target="mainContent">10581</a>, <a href = "P010583.html" target="mainContent">10583</a></td>
+            </tr>
+            <tr>
+              <td>ur</td>
+              <td>ANOINT||DRAG</td>
+              <td>6</td>
+              <td><a href = "P010043.html" target="mainContent">10043</a>, <a href = "P020281.html" target="mainContent">20281</a>, <a href = "P020389.html" target="mainContent">20389</a>, <a href = "P342799.html" target="mainContent">342799</a></td>
+            </tr>
+            <tr>
+              <td>hal</td>
+              <td>DIVIDE</td>
+              <td>6</td>
+              <td><a href = "P010583.html" target="mainContent">10583</a>, <a href = "P020005.html" target="mainContent">20005</a>, <a href = "P020190.html" target="mainContent">20190</a>, <a href = "P020202.html" target="mainContent">20202</a>, <a href = "P020229.html" target="mainContent">20229</a></td>
+            </tr>
+            <tr>
+              <td>kud</td>
+              <td>CUT</td>
+              <td>5</td>
+              <td><a href = "P010583.html" target="mainContent">10583</a>, <a href = "P020195.html" target="mainContent">20195</a>, <a href = "P020274.html" target="mainContent">20274</a>, <a href = "P020311.html" target="mainContent">20311</a>, <a href = "P020389.html" target="mainContent">20389</a></td>
+            </tr>
+            <tr>
+              <td>burgul</td>
+              <td>STONE-CUTTER</td>
+              <td>5</td>
+              <td><a href = "P010101.html" target="mainContent">10101</a>, <a href = "P010102.html" target="mainContent">10102</a>, <a href = "P010419.html" target="mainContent">10419</a>, <a href = "P010663.html" target="mainContent">10663</a>, <a href = "P011108.html" target="mainContent">11108</a></td>
+            </tr>
+            <tr>
+              <td>musara||sar</td>
+              <td>INSCRIPTION||RUN||WRITE</td>
+              <td>5</td>
+              <td><a href = "P010084.html" target="mainContent">10084</a>, <a href = "P010086.html" target="mainContent">10086</a>, <a href = "P010094.html" target="mainContent">10094</a>, <a href = "P010099.html" target="mainContent">10099</a>, <a href = "P010104.html" target="mainContent">10104</a></td>
+            </tr>
+            <tr>
+              <td>aŋ||ig</td>
+              <td>DOOR||MEASURE</td>
+              <td>5</td>
+              <td><a href = "P020274.html" target="mainContent">20274</a>, <a href = "P020340.html" target="mainContent">20340</a>, <a href = "P020370.html" target="mainContent">20370</a></td>
+            </tr>
+            <tr>
+              <td>gar</td>
+              <td>KNOB</td>
+              <td>5</td>
+              <td><a href = "P010080.html" target="mainContent">10080</a>, <a href = "P010586.html" target="mainContent">10586</a>, <a href = "P010588.html" target="mainContent">10588</a>, <a href = "P010590.html" target="mainContent">10590</a>, <a href = "P010934.html" target="mainContent">10934</a></td>
+            </tr>
+            <tr>
+              <td>leʾum</td>
+              <td>BOARD</td>
+              <td>5</td>
+              <td><a href = "P011070.html" target="mainContent">11070</a>, <a href = "P020234.html" target="mainContent">20234</a>, <a href = "P020270.html" target="mainContent">20270</a></td>
+            </tr>
+            <tr>
+              <td>gizi</td>
+              <td>REED</td>
+              <td>4</td>
+              <td><a href = "P010581.html" target="mainContent">10581</a>, <a href = "P010583.html" target="mainContent">10583</a></td>
+            </tr>
+            <tr>
+              <td>dag</td>
+              <td>DEMOLISH</td>
+              <td>4</td>
+              <td><a href = "P010660.html" target="mainContent">10660</a>, <a href = "P011027.html" target="mainContent">11027</a>, <a href = "P011033.html" target="mainContent">11033</a></td>
+            </tr>
+            <tr>
+              <td>šab</td>
+              <td>CUT||SEALING</td>
+              <td>3</td>
+              <td><a href = "P010078.html" target="mainContent">10078</a>, <a href = "P010650.html" target="mainContent">10650</a></td>
+            </tr>
+            <tr>
+              <td>kabduga</td>
+              <td>CHECKED</td>
+              <td>3</td>
+              <td><a href = "P010921.html" target="mainContent">10921</a></td>
+            </tr>
+            <tr>
+              <td>hal||hi</td>
+              <td>DIVIDE||MIX</td>
+              <td>3</td>
+              <td><a href = "P010093.html" target="mainContent">10093</a>, <a href = "P010655.html" target="mainContent">10655</a></td>
+            </tr>
+            <tr>
+              <td>suhur</td>
+              <td>TOOL</td>
+              <td>3</td>
+              <td><a href = "P020039.html" target="mainContent">20039</a>, <a href = "P020361.html" target="mainContent">20361</a></td>
+            </tr>
+            <tr>
+              <td>dur</td>
+              <td>BOARD</td>
+              <td>3</td>
+              <td><a href = "P010583.html" target="mainContent">10583</a>, <a href = "P010600.html" target="mainContent">10600</a></td>
+            </tr>
+            <tr>
+              <td>kišib</td>
+              <td>SEAL</td>
+              <td>3</td>
+              <td><a href = "P020143.html" target="mainContent">20143</a>, <a href = "P020209.html" target="mainContent">20209</a>, <a href = "P491234.html" target="mainContent">491234</a></td>
+            </tr>
+            <tr>
+              <td>ge||gi</td>
+              <td>BLOW||POUR</td>
+              <td>3</td>
+              <td><a href = "P010581.html" target="mainContent">10581</a>, <a href = "P010660.html" target="mainContent">10660</a>, <a href = "P010999.html" target="mainContent">10999</a></td>
+            </tr>
+            <tr>
+              <td>niŋkas</td>
+              <td>ACCOUNT</td>
+              <td>3</td>
+              <td><a href = "P010879.html" target="mainContent">10879</a>, <a href = "P020104.html" target="mainContent">20104</a>, <a href = "P020231.html" target="mainContent">20231</a></td>
+            </tr>
+            <tr>
+              <td>su</td>
+              <td>SPRINKLE</td>
+              <td>2</td>
+              <td><a href = "P010038.html" target="mainContent">10038</a></td>
+            </tr>
+            <tr>
+              <td>gug</td>
+              <td>SEAL||STICK</td>
+              <td>2</td>
+              <td><a href = "P020216.html" target="mainContent">20216</a>, <a href = "P020324.html" target="mainContent">20324</a></td>
+            </tr>
+            <tr>
+              <td>sar||šar</td>
+              <td>MIX||RUN</td>
+              <td>2</td>
+              <td><a href = "P010576.html" target="mainContent">10576</a></td>
+            </tr>
+            <tr>
+              <td>su||suh||zu</td>
+              <td>EXTRACT||KNOW||SINK||SPRINKLE</td>
+              <td>2</td>
+              <td><a href = "P010086.html" target="mainContent">10086</a>, <a href = "P010649.html" target="mainContent">10649</a></td>
+            </tr>
+            <tr>
+              <td>su</td>
+              <td>SINK</td>
+              <td>2</td>
+              <td><a href = "P010993.html" target="mainContent">10993</a>, <a href = "P393799.html" target="mainContent">393799</a></td>
+            </tr>
+            <tr>
+              <td>umbin</td>
+              <td>NAIL||WHEEL</td>
+              <td>2</td>
+              <td><a href = "P010093.html" target="mainContent">10093</a>, <a href = "P020340.html" target="mainContent">20340</a></td>
+            </tr>
+            <tr>
+              <td>hur</td>
+              <td>SCRATCH</td>
+              <td>2</td>
+              <td><a href = "P020342.html" target="mainContent">20342</a></td>
+            </tr>
+            <tr>
+              <td>hi</td>
+              <td>MIX</td>
+              <td>2</td>
+              <td><a href = "P010581.html" target="mainContent">10581</a>, <a href = "P010583.html" target="mainContent">10583</a></td>
+            </tr>
+            <tr>
+              <td>dub</td>
+              <td>HEAP</td>
+              <td>2</td>
+              <td><a href = "P020108.html" target="mainContent">20108</a>, <a href = "P020248.html" target="mainContent">20248</a></td>
+            </tr>
+            <tr>
+              <td>hur</td>
+              <td>SCRAPE</td>
+              <td>1</td>
+              <td><a href = "P393799.html" target="mainContent">393799</a></td>
+            </tr>
+            <tr>
+              <td>zig||zu</td>
+              <td>KNOW||RISE</td>
+              <td>1</td>
+              <td><a href = "P010102.html" target="mainContent">10102</a></td>
+            </tr>
+            <tr>
+              <td>galam</td>
+              <td>SKILFUL</td>
+              <td>1</td>
+              <td><a href = "P010093.html" target="mainContent">10093</a></td>
+            </tr>
+            <tr>
+              <td>umun</td>
+              <td>KNOWLEDGE</td>
+              <td>1</td>
+              <td><a href = "P010078.html" target="mainContent">10078</a></td>
+            </tr>
+            <tr>
+              <td>lagab</td>
+              <td>DEBT-NOTE</td>
+              <td>1</td>
+              <td><a href = "P010663.html" target="mainContent">10663</a></td>
+            </tr>
+            <tr>
+              <td>eburgul</td>
+              <td>WORKSHOP</td>
+              <td>1</td>
+              <td><a href = "P010102.html" target="mainContent">10102</a></td>
+            </tr>
+            <tr>
+              <td>kam</td>
+              <td>BOARD</td>
+              <td>1</td>
+              <td><a href = "P020031.html" target="mainContent">20031</a></td>
+            </tr>
+            <tr>
+              <td>luʾešgid</td>
+              <td>SURVEYOR</td>
+              <td>1</td>
+              <td><a href = "P020069.html" target="mainContent">20069</a></td>
+            </tr>
+            <tr>
+              <td>sar</td>
+              <td>RUN||SHARPEN||SHAVE||WRITE</td>
+              <td>1</td>
+              <td><a href = "P020123.html" target="mainContent">20123</a></td>
+            </tr>
+            <tr>
+              <td>dubšen</td>
+              <td>CHEST</td>
+              <td>1</td>
+              <td><a href = "P020191.html" target="mainContent">20191</a></td>
+            </tr>
+            <tr>
+              <td>zadimgal</td>
+              <td>LAPIDARY</td>
+              <td>1</td>
+              <td><a href = "P010012.html" target="mainContent">10012</a></td>
+            </tr>
+            <tr>
+              <td>ig</td>
+              <td>DOOR</td>
+              <td>1</td>
+              <td><a href = "P020360.html" target="mainContent">20360</a></td>
+            </tr>
+            <tr>
+              <td>imsar</td>
+              <td>TABLET</td>
+              <td>1</td>
+              <td><a href = "P020472.html" target="mainContent">20472</a></td>
+            </tr>
+            <tr>
+              <td>DUN</td>
+              <td>DECORATE</td>
+              <td>1</td>
+              <td><a href = "P010650.html" target="mainContent">10650</a></td>
+            </tr>
+        </tbody>
+</table>
+        </body>
+</html>

@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html lang=\"eng\">
+<head>
+<meta charset=\"utf-8\"/>
+<!-- Include jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+<!-- Include jquery mark ( for highlighting text )-->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/6.1.0/jquery.mark.min.js"></script>
+
+<!-- Include Data Tables-->
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
+<!-- CSS -->
+<script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<!-- JS -->
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+
+<STYLE>
+html,body{
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-family: "Times New Roman";
+  font-size: 10.5pt;
+  line-height: 12pt;
+}
+.text_ID {
+  font-size: 12pt;
+  color: blue;
+}
+.score {
+  font-size: 12pt;
+  color: black;
+  font-weight: bold;
+}
+.cat_info {
+  font-size: 12pt;
+  color: gray;
+}
+mark {
+            padding: 0px;
+            background-color: rgb(255, 201, 14);
+        }
+.text-wrap {
+    white-space:normal;
+}
+.width-200  {
+      width:200px;
+}
+</STYLE>
+<title>WritEMe database -- STATISTICS</title>
+</head>
+<body>
+<h2>Statistics</h2><br>
+<ul>
+  <li>Total texts: 8159</li>
+  <li>Texts with ranking 1 or more: 536</li>
+  <li>Total matches: 2174</li>
+</ul><div id="container" style="width: 75%;">
+    <canvas id="myChart"></canvas>
+  </div>
+
+  <script>
+  var ctx = document.getElementById('myChart').getContext('2d');
+  var gradientStroke = ctx.createLinearGradient(500, 0, 100, 0);
+  gradientStroke.addColorStop(0, '#cc071e');
+  gradientStroke.addColorStop(1, '#80b6f4');
+
+
+  var myChart = new Chart(ctx, {
+      type: 'bar',
+      data: {
+          labels: ['35', '34', '31', '30', '25', '21', '20', '19', '18', '17', '16', '15', '14', '13', '12', '11', '10', '9', '8', '7', '6', '5', '4', '3', '2', '1'],
+          datasets: [{
+                 label: '',
+                 backgroundColor: gradientStroke,
+                 borderColor: gradientStroke,
+                 pointBorderColor: gradientStroke,
+                 pointBackgroundColor: gradientStroke,
+                 pointHoverBackgroundColor: gradientStroke,
+                 pointHoverBorderColor: gradientStroke,
+                 pointBorderWidth: 10,
+                 pointHoverRadius: 10,
+                 pointHoverBorderWidth: 1,
+                 pointRadius: 3,
+                 fill: false,
+                 borderWidth: 14,
+                 data: [1, 1, 1, 1, 4, 3, 6, 3, 1, 2, 1, 4, 6, 3, 7, 5, 8, 7, 10, 8, 23, 25, 42, 67, 106, 191],
+}]
+},
+options: {
+  legend: {
+        display: false
+    },
+    tooltips: {
+        callbacks: {
+           label: function(tooltipItem) {
+                  return tooltipItem.yLabel;
+           }
+        }
+    },
+scales: {
+  xAxes: [{
+      ticks: {
+          beginAtZero: true
+      },
+      scaleLabel: {
+        display: true,
+        labelString: 'text rank (based on # of matches)'
+      }
+  }],
+    yAxes: [{
+        ticks: {
+            beginAtZero: true,
+            callback: function(value) {if (value % 1 === 0) {return value;}}
+        },
+        scaleLabel: {
+          display: true,
+          labelString: '# of texts'
+        }
+    }]
+}
+}
+});
+</script></body>
+</html>

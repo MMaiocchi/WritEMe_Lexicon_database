@@ -1,0 +1,112 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+
+  <STYLE>
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+    }
+
+    body {
+      font-family: Verdana, sans-serif;
+      font-size: 10.5pt;
+      line-height: 12pt;
+    }
+
+    p {
+      word-wrap: break-word;
+    }
+    /* unvisited link */
+    a:link {
+      color: #cc071e;
+      text-decoration: none;
+    }
+
+    /* visited link */
+    a:visited {
+      color: #cc071e;
+    }
+
+    /* mouse over link */
+    a:hover {
+      color: #cc071e;
+      text-decoration: underline;
+    }
+
+    /* selected link */
+    a:active {
+      color: #ec5a4f;
+      text-decoration: underline;
+    }
+
+    div {
+      padding: 2em;
+      line-height: 150%;
+    }
+
+    #main {
+      margin: 0 auto;
+      overflow: hidden;
+
+    }
+
+    #leftside {
+      width: 33%;
+      float: left;
+      padding: 1em;
+    }
+
+    #rightside {
+      width: 66%;
+      margin-left: 400px;
+      padding: 1em;
+
+    }
+
+    .rightbreak {
+      word-wrap: break-word;
+      text-align: justify;
+      margin-right: 40px;
+      padding: 1em;
+    }
+
+    figure {
+      text-align: justify;
+      font-style: italic;
+      font-size: smaller;
+      text-indent: 0;
+      /*border: thin silver solid;*/
+      margin: 0.5em;
+      padding: 2.5em;
+      background-color: #f7f5e7;
+    }
+  </STYLE>
+  <title>WritEMe - Lexicon Database - Homepage</title>
+</head>
+
+<body>
+<center>
+  <div id="main">
+    <div id="leftside">
+      <figure>
+        <center><img src="images\WritEME_LOGO_RED2.png" alt="DUB sign"></center>
+        <figcaption>The cuneiform sign DUB, as occurring in the archaic cuneiform texts of late fourth millennium BCE. More variants are available via the <a href ="https://mmaiocchi.github.io/WritEMe_Uruk_palaeography/index.html" target = "_blank">WritEMe Archaic Text Graphemics</a> database</figcaption>
+      </figure>
+    </div>
+    <div id="rightside" class ="rightbreak">
+
+      <p>The WritEMe Lexicon database is an experiment in data mining for cuneiform sources, with special reference to Sumerian texts from the third millennium BCE. It originated from the need to automatically identify the most relevant texts for the scope of the project, i.e., those more intimately related to writing and accounting. A very large digitized corpus of cuneiform texts is readily available via the <b>Cuneiform Digital Library Initiative</b> (<a href="https://cdli.ucla.edu/" target="_blank">CDLI</a>), but the size of it makes it difficult to navigate. Manually searching for all Sumerian terms for writing and accounting is in fact a very tedious and time consuming task. A tailored data mining approach may help saving considerable time, therefore boosting research. This is accomplished by a script for parsing well-formed transliterations according to <a href= "http://oracc.museum.upenn.edu/doc/help/editinginatf/cdliatf/index.html" target="_blank">ATF</a> standards. In turn, the script relies on a dictionary of selected Sumerian words and spellings, which can be obtained through the <b>electronic Pennsylvania Sumerian Dictionary</b> (<a href="http://oracc.museum.upenn.edu/epsd2" target="_blank">ePSD2</a>).
+      <p>For further information on how to use this database please refer to the <a href="readme.html" target="_self">README</a> section.</p>
+      <p>All input data are from the <b>Cuneiform Digital Library Initiative</b> project (<a href="https://cdli.ucla.edu/" target="_blank">CDLI</a>).No effort has been made to fix minor inconsistencies in the transliterations, which may result in glitches during the tokenization step.</p>
+      <p>The database rests on dedicated scripts for the processing of CDLI transliterations. The scripts analyse input data, create the database structure and populate it. Source code on Github.</p>
+    </div>
+  </div>
+</center>
+</body>
+
+</html>
