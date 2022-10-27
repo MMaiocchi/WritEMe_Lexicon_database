@@ -1,0 +1,602 @@
+{
+   "DUN [DECORATE]" : {
+      "meanings" : "DECORATE",
+      "rank" : 1,
+      "spelling" : "DUN",
+      "texts" : 1
+   },
+   "Nisabak [1]" : {
+      "meanings" : "1",
+      "rank" : 10,
+      "spelling" : "Nisabak",
+      "texts" : 9
+   },
+   "aÅ [MEASURE]" : {
+      "meanings" : "MEASURE",
+      "rank" : 19,
+      "spelling" : "aÅ",
+      "texts" : 11
+   },
+   "aÅ [MEASURE]||ig [DOOR]" : {
+      "meanings" : "DOOR||MEASURE",
+      "rank" : 5,
+      "spelling" : "aÅ||ig",
+      "texts" : 3
+   },
+   "bala [TURN]" : {
+      "meanings" : "TURN",
+      "rank" : 99,
+      "spelling" : "bala",
+      "texts" : 61
+   },
+   "bisaÅdubak [ARCHIVIST]" : {
+      "meanings" : "ARCHIVIST",
+      "rank" : 6,
+      "spelling" : "bisaÅdubak",
+      "texts" : 6
+   },
+   "bur [TEAR]" : {
+      "meanings" : "TEAR",
+      "rank" : 22,
+      "spelling" : "bur",
+      "texts" : 5
+   },
+   "burgul [STONE-CUTTER]" : {
+      "meanings" : "STONE-CUTTER",
+      "rank" : 5,
+      "spelling" : "burgul",
+      "texts" : 5
+   },
+   "dab [GO AROUND]||dag [DEMOLISH]||dar [SPLIT]" : {
+      "meanings" : "DEMOLISH||GO AROUND||SPLIT",
+      "rank" : 26,
+      "spelling" : "dab||dag||dar",
+      "texts" : 20
+   },
+   "dab [GO AROUND]||dub [HEAP]||dub [TABLET]" : {
+      "meanings" : "GO AROUND||HEAP||TABLET",
+      "rank" : 46,
+      "spelling" : "dab||dub",
+      "texts" : 43
+   },
+   "dag [DEMOLISH]" : {
+      "meanings" : "DEMOLISH",
+      "rank" : 4,
+      "spelling" : "dag",
+      "texts" : 3
+   },
+   "dar [SPLIT]" : {
+      "meanings" : "SPLIT",
+      "rank" : 23,
+      "spelling" : "dar",
+      "texts" : 14
+   },
+   "de [POUR]" : {
+      "meanings" : "POUR",
+      "rank" : 8,
+      "spelling" : "de",
+      "texts" : 8
+   },
+   "deg [COLLECT]" : {
+      "meanings" : "COLLECT",
+      "rank" : 7,
+      "spelling" : "deg",
+      "texts" : 7
+   },
+   "dub [HEAP]" : {
+      "meanings" : "HEAP",
+      "rank" : 2,
+      "spelling" : "dub",
+      "texts" : 2
+   },
+   "dub [HEAP]||dub [TABLET]" : {
+      "meanings" : "HEAP||TABLET",
+      "rank" : 12,
+      "spelling" : "dub",
+      "texts" : 12
+   },
+   "dub [TABLET]" : {
+      "meanings" : "TABLET",
+      "rank" : 13,
+      "spelling" : "dub",
+      "texts" : 6
+   },
+   "dubsar [SCRIBE]" : {
+      "meanings" : "SCRIBE",
+      "rank" : 20,
+      "spelling" : "dubsar",
+      "texts" : 19
+   },
+   "dubsar [SCRIBE]||dubsargal [SCRIBE]" : {
+      "meanings" : "SCRIBE",
+      "rank" : 285,
+      "spelling" : "dubsar||dubsargal",
+      "texts" : 148
+   },
+   "dubsarmah [OFFICIAL]" : {
+      "meanings" : "OFFICIAL",
+      "rank" : 15,
+      "spelling" : "dubsarmah",
+      "texts" : 13
+   },
+   "dubÅ¡en [CHEST]" : {
+      "meanings" : "CHEST",
+      "rank" : 1,
+      "spelling" : "dubÅ¡en",
+      "texts" : 1
+   },
+   "dur [BOARD]" : {
+      "meanings" : "BOARD",
+      "rank" : 3,
+      "spelling" : "dur",
+      "texts" : 2
+   },
+   "duÊ¾a [AXLE]" : {
+      "meanings" : "AXLE",
+      "rank" : 15,
+      "spelling" : "duÊ¾a",
+      "texts" : 11
+   },
+   "eburgul [WORKSHOP]" : {
+      "meanings" : "WORKSHOP",
+      "rank" : 1,
+      "spelling" : "eburgul",
+      "texts" : 1
+   },
+   "ed [ASCEND]" : {
+      "meanings" : "ASCEND",
+      "rank" : 92,
+      "spelling" : "ed",
+      "texts" : 39
+   },
+   "edubbaÊ¾a [SCRIBAL SCHOOL]" : {
+      "meanings" : "SCRIBAL SCHOOL",
+      "rank" : 126,
+      "spelling" : "edubbaÊ¾a",
+      "texts" : 71
+   },
+   "eÅ¡ [ROPE]" : {
+      "meanings" : "ROPE",
+      "rank" : 53,
+      "spelling" : "eÅ¡",
+      "texts" : 18
+   },
+   "gabari [COPY]" : {
+      "meanings" : "COPY",
+      "rank" : 6,
+      "spelling" : "gabari",
+      "texts" : 4
+   },
+   "gag [NAIL]" : {
+      "meanings" : "NAIL",
+      "rank" : 20,
+      "spelling" : "gag",
+      "texts" : 9
+   },
+   "gag [NAIL]||gaz [KILL]" : {
+      "meanings" : "KILL||NAIL",
+      "rank" : 50,
+      "spelling" : "gag||gaz",
+      "texts" : 14
+   },
+   "galam [SKILFUL]" : {
+      "meanings" : "SKILFUL",
+      "rank" : 1,
+      "spelling" : "galam",
+      "texts" : 1
+   },
+   "gar [KNOB]" : {
+      "meanings" : "KNOB",
+      "rank" : 5,
+      "spelling" : "gar",
+      "texts" : 5
+   },
+   "gar [KNOB]||kad [TIE]" : {
+      "meanings" : "KNOB||TIE",
+      "rank" : 15,
+      "spelling" : "gar||kad",
+      "texts" : 8
+   },
+   "gaz [KILL]" : {
+      "meanings" : "KILL",
+      "rank" : 20,
+      "spelling" : "gaz",
+      "texts" : 11
+   },
+   "ge [BLOW]||gi [POUR]" : {
+      "meanings" : "BLOW||POUR",
+      "rank" : 3,
+      "spelling" : "ge||gi",
+      "texts" : 3
+   },
+   "gid [DRAG]||gid [LONG]" : {
+      "meanings" : "DRAG||LONG",
+      "rank" : 43,
+      "spelling" : "gid",
+      "texts" : 25
+   },
+   "gid [LONG]" : {
+      "meanings" : "LONG",
+      "rank" : 6,
+      "spelling" : "gid",
+      "texts" : 6
+   },
+   "gizi [REED]" : {
+      "meanings" : "REED",
+      "rank" : 4,
+      "spelling" : "gizi",
+      "texts" : 2
+   },
+   "gug [SEAL]||gug [STICK]" : {
+      "meanings" : "SEAL||STICK",
+      "rank" : 2,
+      "spelling" : "gug",
+      "texts" : 2
+   },
+   "gul [DESTROY]" : {
+      "meanings" : "DESTROY",
+      "rank" : 32,
+      "spelling" : "gul",
+      "texts" : 20
+   },
+   "hal [DIVIDE]" : {
+      "meanings" : "DIVIDE",
+      "rank" : 6,
+      "spelling" : "hal",
+      "texts" : 5
+   },
+   "hal [DIVIDE]||hi [MIX]" : {
+      "meanings" : "DIVIDE||MIX",
+      "rank" : 3,
+      "spelling" : "hal||hi",
+      "texts" : 2
+   },
+   "hi [MIX]" : {
+      "meanings" : "MIX",
+      "rank" : 2,
+      "spelling" : "hi",
+      "texts" : 2
+   },
+   "hur [SCRAPE]" : {
+      "meanings" : "SCRAPE",
+      "rank" : 1,
+      "spelling" : "hur",
+      "texts" : 1
+   },
+   "hur [SCRATCH]" : {
+      "meanings" : "SCRATCH",
+      "rank" : 2,
+      "spelling" : "hur",
+      "texts" : 1
+   },
+   "ig [DOOR]" : {
+      "meanings" : "DOOR",
+      "rank" : 1,
+      "spelling" : "ig",
+      "texts" : 1
+   },
+   "im [CLAY]" : {
+      "meanings" : "CLAY",
+      "rank" : 15,
+      "spelling" : "im",
+      "texts" : 10
+   },
+   "imsar [TABLET]" : {
+      "meanings" : "TABLET",
+      "rank" : 1,
+      "spelling" : "imsar",
+      "texts" : 1
+   },
+   "kabduga [CHECKED]" : {
+      "meanings" : "CHECKED",
+      "rank" : 3,
+      "spelling" : "kabduga",
+      "texts" : 1
+   },
+   "kad [TIE]" : {
+      "meanings" : "TIE",
+      "rank" : 18,
+      "spelling" : "kad",
+      "texts" : 14
+   },
+   "kam [BOARD]" : {
+      "meanings" : "BOARD",
+      "rank" : 1,
+      "spelling" : "kam",
+      "texts" : 1
+   },
+   "keÅ¡ed [BIND]" : {
+      "meanings" : "BIND",
+      "rank" : 24,
+      "spelling" : "keÅ¡ed",
+      "texts" : 7
+   },
+   "kila [WEIGHT]" : {
+      "meanings" : "WEIGHT",
+      "rank" : 7,
+      "spelling" : "kila",
+      "texts" : 3
+   },
+   "kiÅ¡ib [SEAL]" : {
+      "meanings" : "SEAL",
+      "rank" : 3,
+      "spelling" : "kiÅ¡ib",
+      "texts" : 3
+   },
+   "kud [CUT]" : {
+      "meanings" : "CUT",
+      "rank" : 5,
+      "spelling" : "kud",
+      "texts" : 5
+   },
+   "la [HANG]" : {
+      "meanings" : "HANG",
+      "rank" : 80,
+      "spelling" : "la",
+      "texts" : 42
+   },
+   "lagab [DEBT-NOTE]" : {
+      "meanings" : "DEBT-NOTE",
+      "rank" : 1,
+      "spelling" : "lagab",
+      "texts" : 1
+   },
+   "leÊ¾um [BOARD]" : {
+      "meanings" : "BOARD",
+      "rank" : 5,
+      "spelling" : "leÊ¾um",
+      "texts" : 3
+   },
+   "lu [MIX]" : {
+      "meanings" : "MIX",
+      "rank" : 44,
+      "spelling" : "lu",
+      "texts" : 34
+   },
+   "luÊ¾eÅ¡gid [SURVEYOR]" : {
+      "meanings" : "SURVEYOR",
+      "rank" : 1,
+      "spelling" : "luÊ¾eÅ¡gid",
+      "texts" : 1
+   },
+   "musara [INSCRIPTION]||sar [RUN]||sar [WRITE]" : {
+      "meanings" : "INSCRIPTION||RUN||WRITE",
+      "rank" : 5,
+      "spelling" : "musara||sar",
+      "texts" : 5
+   },
+   "na [STONE]" : {
+      "meanings" : "STONE",
+      "rank" : 63,
+      "spelling" : "na",
+      "texts" : 28
+   },
+   "niÅkas [ACCOUNT]" : {
+      "meanings" : "ACCOUNT",
+      "rank" : 3,
+      "spelling" : "niÅkas",
+      "texts" : 3
+   },
+   "pa [BRANCH]" : {
+      "meanings" : "BRANCH",
+      "rank" : 35,
+      "spelling" : "pa",
+      "texts" : 16
+   },
+   "ri [IMPOSE]" : {
+      "meanings" : "IMPOSE",
+      "rank" : 22,
+      "spelling" : "ri",
+      "texts" : 19
+   },
+   "sag [BEAT]" : {
+      "meanings" : "BEAT",
+      "rank" : 18,
+      "spelling" : "sag",
+      "texts" : 10
+   },
+   "sag [BEAT]||zi [CUT]" : {
+      "meanings" : "BEAT||CUT",
+      "rank" : 16,
+      "spelling" : "sag||zi",
+      "texts" : 9
+   },
+   "sar [RUN]||sar [SHARPEN]||sar [SHAVE]||sar [SMOKE]||sar [WRITE]" : {
+      "meanings" : "RUN||SHARPEN||SHAVE||SMOKE||WRITE",
+      "rank" : 57,
+      "spelling" : "sar",
+      "texts" : 29
+   },
+   "sar [RUN]||sar [SHARPEN]||sar [SHAVE]||sar [WRITE]" : {
+      "meanings" : "RUN||SHARPEN||SHAVE||WRITE",
+      "rank" : 1,
+      "spelling" : "sar",
+      "texts" : 1
+   },
+   "sar [RUN]||sar [WRITE]||su [SINK]" : {
+      "meanings" : "RUN||SINK||WRITE",
+      "rank" : 57,
+      "spelling" : "sar||su",
+      "texts" : 23
+   },
+   "sar [RUN]||Å¡ar [MIX]" : {
+      "meanings" : "MIX||RUN",
+      "rank" : 2,
+      "spelling" : "sar||Å¡ar",
+      "texts" : 1
+   },
+   "sar [WRITE]" : {
+      "meanings" : "WRITE",
+      "rank" : 7,
+      "spelling" : "sar",
+      "texts" : 5
+   },
+   "saÅÅa [OFFICIAL]" : {
+      "meanings" : "OFFICIAL",
+      "rank" : 77,
+      "spelling" : "saÅÅa",
+      "texts" : 30
+   },
+   "su [SINK]" : {
+      "meanings" : "SINK",
+      "rank" : 2,
+      "spelling" : "su",
+      "texts" : 2
+   },
+   "su [SINK]||su [SPRINKLE]" : {
+      "meanings" : "SINK||SPRINKLE",
+      "rank" : 21,
+      "spelling" : "su",
+      "texts" : 8
+   },
+   "su [SINK]||su [SPRINKLE]||suh [EXTRACT]||zu [KNOW]" : {
+      "meanings" : "EXTRACT||KNOW||SINK||SPRINKLE",
+      "rank" : 2,
+      "spelling" : "su||suh||zu",
+      "texts" : 2
+   },
+   "su [SPRINKLE]" : {
+      "meanings" : "SPRINKLE",
+      "rank" : 2,
+      "spelling" : "su",
+      "texts" : 1
+   },
+   "suhur [INSERT]||suhur [TOOL]" : {
+      "meanings" : "INSERT||TOOL",
+      "rank" : 6,
+      "spelling" : "suhur",
+      "texts" : 3
+   },
+   "suhur [TOOL]" : {
+      "meanings" : "TOOL",
+      "rank" : 3,
+      "spelling" : "suhur",
+      "texts" : 2
+   },
+   "tag [TOUCH]" : {
+      "meanings" : "TOUCH",
+      "rank" : 77,
+      "spelling" : "tag",
+      "texts" : 36
+   },
+   "ugu [SKULL]" : {
+      "meanings" : "SKULL",
+      "rank" : 7,
+      "spelling" : "ugu",
+      "texts" : 7
+   },
+   "umbin [NAIL]||umbin [WHEEL]" : {
+      "meanings" : "NAIL||WHEEL",
+      "rank" : 2,
+      "spelling" : "umbin",
+      "texts" : 2
+   },
+   "umbisaÅ [SCRIBE]" : {
+      "meanings" : "SCRIBE",
+      "rank" : 21,
+      "spelling" : "umbisaÅ",
+      "texts" : 7
+   },
+   "ummia [EXPERT]" : {
+      "meanings" : "EXPERT",
+      "rank" : 15,
+      "spelling" : "ummia",
+      "texts" : 15
+   },
+   "umun [KNOWLEDGE]" : {
+      "meanings" : "KNOWLEDGE",
+      "rank" : 1,
+      "spelling" : "umun",
+      "texts" : 1
+   },
+   "ur [ANOINT]||ur [DRAG]" : {
+      "meanings" : "ANOINT||DRAG",
+      "rank" : 6,
+      "spelling" : "ur",
+      "texts" : 4
+   },
+   "ur [DRAG]" : {
+      "meanings" : "DRAG",
+      "rank" : 24,
+      "spelling" : "ur",
+      "texts" : 13
+   },
+   "uz [DUCK]" : {
+      "meanings" : "DUCK",
+      "rank" : 10,
+      "spelling" : "uz",
+      "texts" : 7
+   },
+   "zadim [STONE-CUTTER]" : {
+      "meanings" : "STONE-CUTTER",
+      "rank" : 23,
+      "spelling" : "zadim",
+      "texts" : 21
+   },
+   "zadimgal [LAPIDARY]" : {
+      "meanings" : "LAPIDARY",
+      "rank" : 1,
+      "spelling" : "zadimgal",
+      "texts" : 1
+   },
+   "zi [CUT]||zig [RISE]||zir [BREAK]" : {
+      "meanings" : "BREAK||CUT||RISE",
+      "rank" : 7,
+      "spelling" : "zi||zig||zir",
+      "texts" : 7
+   },
+   "zi [CUT]||zig [RISE]||zir [BREAK]||zu [KNOW]" : {
+      "meanings" : "BREAK||CUT||KNOW||RISE",
+      "rank" : 7,
+      "spelling" : "zi||zig||zir||zu",
+      "texts" : 6
+   },
+   "zib [MARK]" : {
+      "meanings" : "MARK",
+      "rank" : 25,
+      "spelling" : "zib",
+      "texts" : 25
+   },
+   "zig [RISE]" : {
+      "meanings" : "RISE",
+      "rank" : 21,
+      "spelling" : "zig",
+      "texts" : 21
+   },
+   "zig [RISE]||zu [KNOW]" : {
+      "meanings" : "KNOW||RISE",
+      "rank" : 1,
+      "spelling" : "zig||zu",
+      "texts" : 1
+   },
+   "zir [BREAK]" : {
+      "meanings" : "BREAK",
+      "rank" : 7,
+      "spelling" : "zir",
+      "texts" : 7
+   },
+   "zu [KNOW]" : {
+      "meanings" : "KNOW",
+      "rank" : 19,
+      "spelling" : "zu",
+      "texts" : 12
+   },
+   "Å¡ab [CUT]||Å¡ab [SEALING]" : {
+      "meanings" : "CUT||SEALING",
+      "rank" : 3,
+      "spelling" : "Å¡ab",
+      "texts" : 2
+   },
+   "Å¡ar [MIX]" : {
+      "meanings" : "MIX",
+      "rank" : 122,
+      "spelling" : "Å¡ar",
+      "texts" : 99
+   },
+   "Å¡id [COUNT]" : {
+      "meanings" : "COUNT",
+      "rank" : 27,
+      "spelling" : "Å¡id",
+      "texts" : 25
+   }
+}
