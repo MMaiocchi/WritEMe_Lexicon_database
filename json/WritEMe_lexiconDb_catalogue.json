@@ -1,0 +1,3218 @@
+{
+   "P000068" : {
+      "genre" : "lex",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P000110" : {
+      "genre" : "lex",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "2"
+   },
+   "P000118" : {
+      "genre" : "lex",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P000125" : {
+      "genre" : "lex",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P000181" : {
+      "genre" : "lex",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "2"
+   },
+   "P000203" : {
+      "genre" : "lex",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P000235" : {
+      "genre" : "lex",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "3"
+   },
+   "P000261" : {
+      "genre" : "lex",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P000266" : {
+      "genre" : "lex",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P000275" : {
+      "genre" : "lex",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P000290" : {
+      "genre" : "lex",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "2"
+   },
+   "P000291" : {
+      "genre" : "lex",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P000292" : {
+      "genre" : "lex",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P000310" : {
+      "genre" : "lex",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P000361" : {
+      "genre" : "lex",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P000371" : {
+      "genre" : "lex",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P000397" : {
+      "genre" : "lex",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P000417" : {
+      "genre" : "lex",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "2"
+   },
+   "P000474" : {
+      "genre" : "lex",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P000500" : {
+      "genre" : "lex",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P000517" : {
+      "genre" : "lex",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "2"
+   },
+   "P000520" : {
+      "genre" : "lex",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P000561" : {
+      "genre" : "lex",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P000664" : {
+      "genre" : "lex",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "2"
+   },
+   "P001374" : {
+      "genre" : "adm",
+      "period" : "UrukIV",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P001689" : {
+      "genre" : "adm",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P001797" : {
+      "genre" : "adm",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P001819" : {
+      "genre" : "adm",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P001838" : {
+      "genre" : "adm",
+      "period" : "UrukIV",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P002237" : {
+      "genre" : "adm",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P002628" : {
+      "genre" : "adm",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P002695" : {
+      "genre" : "adm",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P002713" : {
+      "genre" : "adm",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P002715" : {
+      "genre" : "adm",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "2"
+   },
+   "P002737" : {
+      "genre" : "adm",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "2"
+   },
+   "P002741" : {
+      "genre" : "adm",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P002744" : {
+      "genre" : "adm",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P002771" : {
+      "genre" : "adm",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P002815" : {
+      "genre" : "adm",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P003230" : {
+      "genre" : "adm",
+      "period" : "UrukIV",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P003269" : {
+      "genre" : "adm",
+      "period" : "UrukIV",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P003499" : {
+      "genre" : "adm",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P003520" : {
+      "genre" : "adm",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P003809" : {
+      "genre" : "adm",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P003897" : {
+      "genre" : "adm",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P003932" : {
+      "genre" : "adm",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "2"
+   },
+   "P004066" : {
+      "genre" : "adm",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P004344" : {
+      "genre" : "adm",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P004452" : {
+      "genre" : "adm",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "2"
+   },
+   "P004464" : {
+      "genre" : "adm",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P004570" : {
+      "genre" : "adm",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P004763" : {
+      "genre" : "adm",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P004905" : {
+      "genre" : "adm",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P004969" : {
+      "genre" : "adm",
+      "period" : "UrukIII",
+      "provenience" : "Uruk ",
+      "score" : "2"
+   },
+   "P005314" : {
+      "genre" : "adm",
+      "period" : "UrukIII",
+      "provenience" : "Uruk  ?",
+      "score" : "2"
+   },
+   "P005319" : {
+      "genre" : "adm",
+      "period" : "UrukIII",
+      "provenience" : "Uruk  ?",
+      "score" : "1"
+   },
+   "P005332" : {
+      "genre" : "adm",
+      "period" : "UrukIII",
+      "provenience" : "Uruk  ?",
+      "score" : "2"
+   },
+   "P005391" : {
+      "genre" : "adm",
+      "period" : "UrukIII",
+      "provenience" : "Uruk  ?",
+      "score" : "1"
+   },
+   "P005417" : {
+      "genre" : "adm",
+      "period" : "UrukIII",
+      "provenience" : "uncertain  ?",
+      "score" : "1"
+   },
+   "P005431" : {
+      "genre" : "adm",
+      "period" : "UrukIII",
+      "provenience" : "uncertain  ?",
+      "score" : "1"
+   },
+   "P005438" : {
+      "genre" : "adm",
+      "period" : "UrukIII",
+      "provenience" : "uncertain ",
+      "score" : "1"
+   },
+   "P005442" : {
+      "genre" : "adm",
+      "period" : "UrukIII",
+      "provenience" : "uncertain ",
+      "score" : "1"
+   },
+   "P005579" : {
+      "genre" : "adm",
+      "period" : "EDI-II",
+      "provenience" : "Ur ",
+      "score" : "1"
+   },
+   "P005588" : {
+      "genre" : "adm",
+      "period" : "EDI-II",
+      "provenience" : "Ur ",
+      "score" : "1"
+   },
+   "P005590" : {
+      "genre" : "adm",
+      "period" : "EDI-II",
+      "provenience" : "Ur ",
+      "score" : "1"
+   },
+   "P005597" : {
+      "genre" : "adm",
+      "period" : "EDI-II",
+      "provenience" : "Ur ",
+      "score" : "1"
+   },
+   "P005598" : {
+      "genre" : "adm",
+      "period" : "EDI-II",
+      "provenience" : "Ur ",
+      "score" : "1"
+   },
+   "P005606" : {
+      "genre" : "adm",
+      "period" : "EDI-II",
+      "provenience" : "Ur ",
+      "score" : "1"
+   },
+   "P005643" : {
+      "genre" : "adm",
+      "period" : "EDI-II",
+      "provenience" : "Ur ",
+      "score" : "1"
+   },
+   "P005673" : {
+      "genre" : "adm",
+      "period" : "EDI-II",
+      "provenience" : "Ur ",
+      "score" : "2"
+   },
+   "P005680" : {
+      "genre" : "adm",
+      "period" : "EDI-II",
+      "provenience" : "Ur ",
+      "score" : "1"
+   },
+   "P005687" : {
+      "genre" : "adm",
+      "period" : "EDI-II",
+      "provenience" : "Ur ",
+      "score" : "2"
+   },
+   "P005699" : {
+      "genre" : "adm",
+      "period" : "EDI-II",
+      "provenience" : "Ur ",
+      "score" : "1"
+   },
+   "P005723" : {
+      "genre" : "adm",
+      "period" : "EDI-II",
+      "provenience" : "Ur ",
+      "score" : "1"
+   },
+   "P005725" : {
+      "genre" : "adm",
+      "period" : "EDI-II",
+      "provenience" : "Ur ",
+      "score" : "1"
+   },
+   "P005745" : {
+      "genre" : "adm",
+      "period" : "EDI-II",
+      "provenience" : "Ur ",
+      "score" : "1"
+   },
+   "P005753" : {
+      "genre" : "adm",
+      "period" : "EDI-II",
+      "provenience" : "Ur ",
+      "score" : "1"
+   },
+   "P005756" : {
+      "genre" : "adm",
+      "period" : "EDI-II",
+      "provenience" : "Ur ",
+      "score" : "1"
+   },
+   "P005762" : {
+      "genre" : "adm",
+      "period" : "EDI-II",
+      "provenience" : "Ur ",
+      "score" : "1"
+   },
+   "P005772" : {
+      "genre" : "adm",
+      "period" : "EDI-II",
+      "provenience" : "Ur ",
+      "score" : "1"
+   },
+   "P005798" : {
+      "genre" : "adm",
+      "period" : "EDI-II",
+      "provenience" : "Ur ",
+      "score" : "1"
+   },
+   "P005817" : {
+      "genre" : "adm",
+      "period" : "EDI-II",
+      "provenience" : "Ur ",
+      "score" : "1"
+   },
+   "P005822" : {
+      "genre" : "adm",
+      "period" : "EDI-II",
+      "provenience" : "Ur ",
+      "score" : "2"
+   },
+   "P005831" : {
+      "genre" : "adm",
+      "period" : "EDI-II",
+      "provenience" : "Ur ",
+      "score" : "1"
+   },
+   "P005876" : {
+      "genre" : "adm",
+      "period" : "EDI-II",
+      "provenience" : "Ur ",
+      "score" : "1"
+   },
+   "P005887" : {
+      "genre" : "adm",
+      "period" : "EDI-II",
+      "provenience" : "Ur ",
+      "score" : "1"
+   },
+   "P005889" : {
+      "genre" : "adm",
+      "period" : "EDI-II",
+      "provenience" : "Ur ",
+      "score" : "2"
+   },
+   "P005941" : {
+      "genre" : "adm",
+      "period" : "EDI-II",
+      "provenience" : "Ur ",
+      "score" : "1"
+   },
+   "P005946" : {
+      "genre" : "adm",
+      "period" : "EDI-II",
+      "provenience" : "Ur ",
+      "score" : "1"
+   },
+   "P005958" : {
+      "genre" : "adm",
+      "period" : "EDI-II",
+      "provenience" : "Ur ",
+      "score" : "2"
+   },
+   "P005978" : {
+      "genre" : "adm",
+      "period" : "EDI-II",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P005979" : {
+      "genre" : "adm",
+      "period" : "EDI-II",
+      "provenience" : "Uruk ",
+      "score" : "1"
+   },
+   "P005987" : {
+      "genre" : "leg",
+      "period" : "EDI-II",
+      "provenience" : "uncertain ",
+      "score" : "1"
+   },
+   "P005998" : {
+      "genre" : "adm",
+      "period" : "EDI-II",
+      "provenience" : "Å uruppak  ?",
+      "score" : "1"
+   },
+   "P006040" : {
+      "genre" : "adm",
+      "period" : "UrukIII",
+      "provenience" : "Umma  ?",
+      "score" : "2"
+   },
+   "P006186" : {
+      "genre" : "adm",
+      "period" : "UrukIII",
+      "provenience" : "Umma  ?",
+      "score" : "1"
+   },
+   "P006283" : {
+      "genre" : "adm",
+      "period" : "UrukIII",
+      "provenience" : "Umma  ?",
+      "score" : "1"
+   },
+   "P006332" : {
+      "genre" : "adm",
+      "period" : "UrukIII",
+      "provenience" : "Umma  ?",
+      "score" : "1"
+   },
+   "P010009" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak  ?",
+      "score" : "2"
+   },
+   "P010011" : {
+      "genre" : "adm ?",
+      "period" : "EDIIIa",
+      "provenience" : "uncertain ",
+      "score" : "2"
+   },
+   "P010012" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Adab  ?",
+      "score" : "4"
+   },
+   "P010016" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "2"
+   },
+   "P010017" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P010019" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "2"
+   },
+   "P010032" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak  ?",
+      "score" : "1"
+   },
+   "P010034" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak  ?",
+      "score" : "2"
+   },
+   "P010038" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak  ?",
+      "score" : "3"
+   },
+   "P010039" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak  ?",
+      "score" : "3"
+   },
+   "P010042" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak  ?",
+      "score" : "1"
+   },
+   "P010043" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak  ?",
+      "score" : "3"
+   },
+   "P010049" : {
+      "genre" : "adm ?",
+      "period" : "EDIIIa",
+      "provenience" : "uncertain ",
+      "score" : "9"
+   },
+   "P010050" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak  ?",
+      "score" : "2"
+   },
+   "P010053" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak  ?",
+      "score" : "11"
+   },
+   "P010056" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "uncertain ",
+      "score" : "2"
+   },
+   "P010059" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak  ?",
+      "score" : "9"
+   },
+   "P010060" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak  ?",
+      "score" : "6"
+   },
+   "P010062" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak  ?",
+      "score" : "1"
+   },
+   "P010067" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak  ?",
+      "score" : "3"
+   },
+   "P010068" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak  ?",
+      "score" : "10"
+   },
+   "P010069" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak  ?",
+      "score" : "6"
+   },
+   "P010070" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak  ?",
+      "score" : "2"
+   },
+   "P010078" : {
+      "genre" : "lex",
+      "period" : "EDIIIa",
+      "provenience" : "uncertain ",
+      "score" : "20"
+   },
+   "P010080" : {
+      "genre" : "lex",
+      "period" : "EDIIIa",
+      "provenience" : "uncertain ",
+      "score" : "4"
+   },
+   "P010083" : {
+      "genre" : "lex",
+      "period" : "EDIIIa",
+      "provenience" : "uncertain ",
+      "score" : "3"
+   },
+   "P010084" : {
+      "genre" : "lex",
+      "period" : "EDIIIa",
+      "provenience" : "uncertain ",
+      "score" : "2"
+   },
+   "P010086" : {
+      "genre" : "lex",
+      "period" : "EDIIIa",
+      "provenience" : "uncertain ",
+      "score" : "25"
+   },
+   "P010093" : {
+      "genre" : "lex",
+      "period" : "EDIIIa",
+      "provenience" : "uncertain ",
+      "score" : "35"
+   },
+   "P010094" : {
+      "genre" : "lex",
+      "period" : "EDIIIa",
+      "provenience" : "uncertain ",
+      "score" : "4"
+   },
+   "P010097" : {
+      "genre" : "lex",
+      "period" : "EDIIIa",
+      "provenience" : "uncertain ",
+      "score" : "5"
+   },
+   "P010099" : {
+      "genre" : "lex",
+      "period" : "EDIIIa",
+      "provenience" : "uncertain ",
+      "score" : "3"
+   },
+   "P010101" : {
+      "genre" : "lex",
+      "period" : "EDIIIa",
+      "provenience" : "uncertain ",
+      "score" : "7"
+   },
+   "P010102" : {
+      "genre" : "lex",
+      "period" : "EDIIIa",
+      "provenience" : "uncertain ",
+      "score" : "13"
+   },
+   "P010103" : {
+      "genre" : "lex",
+      "period" : "EDIIIa",
+      "provenience" : "uncertain ",
+      "score" : "1"
+   },
+   "P010104" : {
+      "genre" : "lex",
+      "period" : "EDIIIa",
+      "provenience" : "uncertain ",
+      "score" : "2"
+   },
+   "P010419" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "uncertain ",
+      "score" : "1"
+   },
+   "P010431" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "uncertain ",
+      "score" : "4"
+   },
+   "P010436" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "uncertain ",
+      "score" : "4"
+   },
+   "P010437" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "uncertain ",
+      "score" : "2"
+   },
+   "P010439" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "uncertain ",
+      "score" : "1"
+   },
+   "P010441" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "uncertain ",
+      "score" : "2"
+   },
+   "P010458" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "uncertain ",
+      "score" : "1"
+   },
+   "P010479" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak  ?",
+      "score" : "9"
+   },
+   "P010480" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak  ?",
+      "score" : "10"
+   },
+   "P010481" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak  ?",
+      "score" : "3"
+   },
+   "P010482" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak  ?",
+      "score" : "4"
+   },
+   "P010483" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak  ?",
+      "score" : "7"
+   },
+   "P010485" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P010489" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "14"
+   },
+   "P010492" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P010501" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "5"
+   },
+   "P010515" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P010516" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "2"
+   },
+   "P010524" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "2"
+   },
+   "P010525" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "4"
+   },
+   "P010526" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "2"
+   },
+   "P010531" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak  ?",
+      "score" : "1"
+   },
+   "P010532" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "5"
+   },
+   "P010541" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P010544" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak  ?",
+      "score" : "7"
+   },
+   "P010548" : {
+      "genre" : "lex",
+      "period" : "EDIIIa",
+      "provenience" : "uncertain ",
+      "score" : "3"
+   },
+   "P010549" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P010553" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "8"
+   },
+   "P010554" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "3"
+   },
+   "P010555" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "2"
+   },
+   "P010556" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P010562" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Girsu ",
+      "score" : "2"
+   },
+   "P010564" : {
+      "genre" : "leg",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak  ?",
+      "score" : "6"
+   },
+   "P010566" : {
+      "genre" : "lex",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "3"
+   },
+   "P010570" : {
+      "genre" : "adm ?",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "2"
+   },
+   "P010572" : {
+      "genre" : "lex",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P010574" : {
+      "genre" : "lex",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "8"
+   },
+   "P010576" : {
+      "genre" : "lex",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "12"
+   },
+   "P010581" : {
+      "genre" : "lex",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "19"
+   },
+   "P010583" : {
+      "genre" : "lex",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "25"
+   },
+   "P010586" : {
+      "genre" : "lex",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "12"
+   },
+   "P010588" : {
+      "genre" : "lex",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "9"
+   },
+   "P010590" : {
+      "genre" : "lex",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "2"
+   },
+   "P010600" : {
+      "genre" : "lex",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "3"
+   },
+   "P010632" : {
+      "genre" : "lex",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "4"
+   },
+   "P010649" : {
+      "genre" : "lex",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "25"
+   },
+   "P010650" : {
+      "genre" : "lex",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "34"
+   },
+   "P010655" : {
+      "genre" : "lex",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "17"
+   },
+   "P010660" : {
+      "genre" : "lex",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "21"
+   },
+   "P010663" : {
+      "genre" : "lex",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "7"
+   },
+   "P010693" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak  ?",
+      "score" : "5"
+   },
+   "P010700" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "15"
+   },
+   "P010705" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "3"
+   },
+   "P010706" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "6"
+   },
+   "P010707" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "6"
+   },
+   "P010708" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P010720" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "2"
+   },
+   "P010729" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P010730" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "3"
+   },
+   "P010732" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P010734" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "2"
+   },
+   "P010738" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P010740" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P010744" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "3"
+   },
+   "P010746" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P010747" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P010748" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P010749" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "2"
+   },
+   "P010764" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "7"
+   },
+   "P010772" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "3"
+   },
+   "P010780" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "4"
+   },
+   "P010791" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P010796" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "2"
+   },
+   "P010801" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "10"
+   },
+   "P010810" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "5"
+   },
+   "P010819" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P010821" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "2"
+   },
+   "P010822" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "2"
+   },
+   "P010823" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "2"
+   },
+   "P010825" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "5"
+   },
+   "P010836" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "2"
+   },
+   "P010837" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "4"
+   },
+   "P010841" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "4"
+   },
+   "P010843" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "15"
+   },
+   "P010844" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P010848" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "2"
+   },
+   "P010849" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P010855" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "2"
+   },
+   "P010859" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P010866" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P010869" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "3"
+   },
+   "P010877" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P010879" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P010886" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P010890" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P010894" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P010902" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P010906" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P010907" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "2"
+   },
+   "P010921" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "3"
+   },
+   "P010928" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "2"
+   },
+   "P010929" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "19"
+   },
+   "P010934" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "2"
+   },
+   "P010945" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P010954" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "3"
+   },
+   "P010958" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "2"
+   },
+   "P010960" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "2"
+   },
+   "P010961" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P010962" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "6"
+   },
+   "P010963" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "6"
+   },
+   "P010964" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "11"
+   },
+   "P010965" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "2"
+   },
+   "P010966" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "5"
+   },
+   "P010969" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "3"
+   },
+   "P010971" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "2"
+   },
+   "P010972" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "6"
+   },
+   "P010973" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "3"
+   },
+   "P010975" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "10"
+   },
+   "P010978" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "3"
+   },
+   "P010979" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "9"
+   },
+   "P010981" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P010982" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "11"
+   },
+   "P010983" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "3"
+   },
+   "P010984" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P010987" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "3"
+   },
+   "P010989" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "4"
+   },
+   "P010990" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "4"
+   },
+   "P010991" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "3"
+   },
+   "P010992" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "4"
+   },
+   "P010993" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "4"
+   },
+   "P010994" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "3"
+   },
+   "P010999" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "4"
+   },
+   "P011001" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "2"
+   },
+   "P011002" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "4"
+   },
+   "P011007" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P011008" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "4"
+   },
+   "P011010" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "9"
+   },
+   "P011011" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P011013" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "3"
+   },
+   "P011014" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "2"
+   },
+   "P011015" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P011019" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P011024" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "2"
+   },
+   "P011025" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P011026" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "2"
+   },
+   "P011027" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "4"
+   },
+   "P011028" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "5"
+   },
+   "P011029" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "2"
+   },
+   "P011033" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "8"
+   },
+   "P011034" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "7"
+   },
+   "P011035" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "4"
+   },
+   "P011041" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P011044" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P011046" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P011048" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "12"
+   },
+   "P011052" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P011055" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P011057" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "2"
+   },
+   "P011058" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "3"
+   },
+   "P011060" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "2"
+   },
+   "P011063" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "4"
+   },
+   "P011064" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "4"
+   },
+   "P011066" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "5"
+   },
+   "P011070" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "2"
+   },
+   "P011078" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P011079" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "2"
+   },
+   "P011080" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P011082" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "3"
+   },
+   "P011093" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "2"
+   },
+   "P011096" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "5"
+   },
+   "P011097" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P011099" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "3"
+   },
+   "P011104" : {
+      "genre" : "adm",
+      "period" : "EDI-II?",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P011105" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P011106" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "1"
+   },
+   "P011107" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "4"
+   },
+   "P011108" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "3"
+   },
+   "P011110" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "3"
+   },
+   "P011112" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak ",
+      "score" : "4"
+   },
+   "P011113" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak  ?",
+      "score" : "4"
+   },
+   "P020004" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "14"
+   },
+   "P020005" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "15"
+   },
+   "P020008" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "2"
+   },
+   "P020025" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "21"
+   },
+   "P020031" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P020037" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P020039" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "8"
+   },
+   "P020040" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "2"
+   },
+   "P020042" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "4"
+   },
+   "P020049" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "2"
+   },
+   "P020052" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P020054" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "11"
+   },
+   "P020055" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P020063" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P020065" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P020069" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "10"
+   },
+   "P020070" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "4"
+   },
+   "P020071" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "2"
+   },
+   "P020072" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "5"
+   },
+   "P020073" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "12"
+   },
+   "P020074" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "2"
+   },
+   "P020075" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "2"
+   },
+   "P020081" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "4"
+   },
+   "P020087" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "2"
+   },
+   "P020088" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "10"
+   },
+   "P020089" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "20"
+   },
+   "P020090" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "2"
+   },
+   "P020096" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "3"
+   },
+   "P020097" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P020103" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P020104" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "2"
+   },
+   "P020107" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "9"
+   },
+   "P020108" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "20"
+   },
+   "P020109" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P020110" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P020113" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "12"
+   },
+   "P020117" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P020123" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "5"
+   },
+   "P020124" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P020129" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "14"
+   },
+   "P020131" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "3"
+   },
+   "P020134" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P020137" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "5"
+   },
+   "P020140" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "3"
+   },
+   "P020141" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "6"
+   },
+   "P020143" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "6"
+   },
+   "P020146" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P020153" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P020156" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P020159" : {
+      "genre" : "leg",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P020160" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P020161" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P020166" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "2"
+   },
+   "P020169" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "7"
+   },
+   "P020170" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "14"
+   },
+   "P020171" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "5"
+   },
+   "P020184" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "20"
+   },
+   "P020186" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P020189" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "10"
+   },
+   "P020190" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "25"
+   },
+   "P020191" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "2"
+   },
+   "P020192" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "5"
+   },
+   "P020195" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "5"
+   },
+   "P020197" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "4"
+   },
+   "P020202" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "2"
+   },
+   "P020203" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "2"
+   },
+   "P020205" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "4"
+   },
+   "P020209" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P020211" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "2"
+   },
+   "P020213" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "3"
+   },
+   "P020215" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P020216" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "4"
+   },
+   "P020217" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "2"
+   },
+   "P020219" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "8"
+   },
+   "P020224" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "3"
+   },
+   "P020226" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "2"
+   },
+   "P020228" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "2"
+   },
+   "P020229" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "4"
+   },
+   "P020231" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P020232" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "5"
+   },
+   "P020234" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "4"
+   },
+   "P020237" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "4"
+   },
+   "P020239" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P020246" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "3"
+   },
+   "P020247" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "3"
+   },
+   "P020248" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "6"
+   },
+   "P020249" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "4"
+   },
+   "P020250" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "6"
+   },
+   "P020251" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "2"
+   },
+   "P020252" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "4"
+   },
+   "P020254" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "2"
+   },
+   "P020256" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "6"
+   },
+   "P020260" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "2"
+   },
+   "P020261" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "2"
+   },
+   "P020262" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "2"
+   },
+   "P020265" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "3"
+   },
+   "P020267" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P020268" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "4"
+   },
+   "P020270" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "6"
+   },
+   "P020274" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "8"
+   },
+   "P020275" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "10"
+   },
+   "P020276" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "13"
+   },
+   "P020277" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "8"
+   },
+   "P020280" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "20"
+   },
+   "P020281" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "30"
+   },
+   "P020282" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "8"
+   },
+   "P020284" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P020285" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "4"
+   },
+   "P020286" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P020289" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "3"
+   },
+   "P020290" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "2"
+   },
+   "P020291" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "2"
+   },
+   "P020292" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "2"
+   },
+   "P020293" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "3"
+   },
+   "P020297" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "8"
+   },
+   "P020299" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "3"
+   },
+   "P020300" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P020301" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P020304" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P020305" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "3"
+   },
+   "P020307" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "13"
+   },
+   "P020308" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "5"
+   },
+   "P020310" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "18"
+   },
+   "P020311" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "6"
+   },
+   "P020312" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "6"
+   },
+   "P020317" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "2"
+   },
+   "P020321" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "5"
+   },
+   "P020322" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "2"
+   },
+   "P020323" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "3"
+   },
+   "P020324" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "6"
+   },
+   "P020328" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "3"
+   },
+   "P020329" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "2"
+   },
+   "P020330" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "4"
+   },
+   "P020331" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "3"
+   },
+   "P020333" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "3"
+   },
+   "P020334" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "6"
+   },
+   "P020338" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "3"
+   },
+   "P020339" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "12"
+   },
+   "P020340" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "12"
+   },
+   "P020341" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P020342" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "31"
+   },
+   "P020344" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "3"
+   },
+   "P020346" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "16"
+   },
+   "P020348" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "6"
+   },
+   "P020349" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "3"
+   },
+   "P020350" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "21"
+   },
+   "P020351" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P020352" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "6"
+   },
+   "P020355" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "4"
+   },
+   "P020357" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P020358" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "3"
+   },
+   "P020360" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "3"
+   },
+   "P020361" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "5"
+   },
+   "P020363" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "2"
+   },
+   "P020364" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "19"
+   },
+   "P020366" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P020370" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "2"
+   },
+   "P020373" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P020379" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "17"
+   },
+   "P020380" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "3"
+   },
+   "P020382" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "6"
+   },
+   "P020383" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "2"
+   },
+   "P020384" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "4"
+   },
+   "P020386" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "5"
+   },
+   "P020387" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "2"
+   },
+   "P020388" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "6"
+   },
+   "P020389" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "6"
+   },
+   "P020390" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P020391" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "3"
+   },
+   "P020392" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "7"
+   },
+   "P020393" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P020394" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "1"
+   },
+   "P020395" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "11"
+   },
+   "P020396" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "3"
+   },
+   "P020397" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "20"
+   },
+   "P020401" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "3"
+   },
+   "P020407" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "3"
+   },
+   "P020409" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "4"
+   },
+   "P020414" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Girsu ",
+      "score" : "3"
+   },
+   "P020422" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Nippur ",
+      "score" : "2"
+   },
+   "P020426" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Nippur ",
+      "score" : "1"
+   },
+   "P020431" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Nippur ",
+      "score" : "1"
+   },
+   "P020437" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Nippur ",
+      "score" : "2"
+   },
+   "P020440" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Nippur ",
+      "score" : "1"
+   },
+   "P020443" : {
+      "genre" : "adm",
+      "period" : "OAkk",
+      "provenience" : "Nippur ",
+      "score" : "2"
+   },
+   "P020461" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Nippur ",
+      "score" : "1"
+   },
+   "P020466" : {
+      "genre" : "adm",
+      "period" : "OAkk",
+      "provenience" : "Nippur ",
+      "score" : "3"
+   },
+   "P020467" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Nippur ",
+      "score" : "1"
+   },
+   "P020469" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Nippur ",
+      "score" : "2"
+   },
+   "P020472" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Nippur ",
+      "score" : "14"
+   },
+   "P020475" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Nippur ",
+      "score" : "3"
+   },
+   "P020485" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak  ?",
+      "score" : "5"
+   },
+   "P020486" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Nippur ",
+      "score" : "1"
+   },
+   "P020487" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Nippur ",
+      "score" : "5"
+   },
+   "P020489" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak  ?",
+      "score" : "5"
+   },
+   "P020491" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Nippur ",
+      "score" : "1"
+   },
+   "P020492" : {
+      "genre" : "adm",
+      "period" : "EDIIIa",
+      "provenience" : "Å uruppak  ?",
+      "score" : "8"
+   },
+   "P020494" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Nippur ",
+      "score" : "3"
+   },
+   "P020495" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Nippur ",
+      "score" : "5"
+   },
+   "P020501" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Nippur ",
+      "score" : "1"
+   },
+   "P020502" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Nippur ",
+      "score" : "1"
+   },
+   "P020505" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Nippur ",
+      "score" : "1"
+   },
+   "P020507" : {
+      "genre" : "adm",
+      "period" : "OAkk",
+      "provenience" : "Nippur ",
+      "score" : "1"
+   },
+   "P020508" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Nippur ",
+      "score" : "1"
+   },
+   "P020512" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Nippur ",
+      "score" : "1"
+   },
+   "P020520" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Nippur ",
+      "score" : "2"
+   },
+   "P020524" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Nippur ",
+      "score" : "1"
+   },
+   "P020532" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Nippur ",
+      "score" : "3"
+   },
+   "P020542" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Nippur ",
+      "score" : "2"
+   },
+   "P020543" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Nippur ",
+      "score" : "1"
+   },
+   "P020554" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Nippur ",
+      "score" : "1"
+   },
+   "P020566" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Nippur ",
+      "score" : "3"
+   },
+   "P020567" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Nippur ",
+      "score" : "2"
+   },
+   "P020573" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Nippur ",
+      "score" : "14"
+   },
+   "P020574" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Nippur ",
+      "score" : "1"
+   },
+   "P020578" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Nippur ",
+      "score" : "3"
+   },
+   "P020580" : {
+      "genre" : "adm",
+      "period" : "EDIIIb",
+      "provenience" : "Nippur ",
+      "score" : "2"
+   },
+   "P292940" : {
+      "genre" : "adm",
+      "period" : "EOB",
+      "provenience" : "Å aduppum  ?",
+      "score" : "3"
+   },
+   "P342799" : {
+      "genre" : "lit",
+      "period" : "OB",
+      "provenience" : "-",
+      "score" : "3"
+   },
+   "P393799" : {
+      "genre" : "-",
+      "period" : "NA",
+      "provenience" : "Nineveh ",
+      "score" : "15"
+   },
+   "P399874" : {
+      "genre" : "-",
+      "period" : "NA",
+      "provenience" : "Nineveh ",
+      "score" : "1"
+   },
+   "P491234" : {
+      "genre" : "leg",
+      "period" : "EOB",
+      "provenience" : "Me-Turan ",
+      "score" : "2"
+   }
+}
